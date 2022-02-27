@@ -1,0 +1,1446 @@
+
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr" xmlns:dc="http://purl.org/dc/terms/" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:product="http://ogp.me/ns/product#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#">
+  <head>
+    <link rel="dns-prefetch" href="https://cdn.computerhoy.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://securepubads.g.doubleclick.net/">
+    <link rel="dns-prefetch" href="https://cmpsp.computerhoy.com">
+    <link rel="dns-prefetch" href="https://js-agent.newrelic.com/">
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="prefetch" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" as="font" type="font/woff2" crossorigin>
+<link rel="prefetch" href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" as="font" type="font/woff2" crossorigin>
+
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap');
+</style>    <link rel="apple-touch-icon" href="/themes/computerhoy/manifest/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="/themes/computerhoy/manifest/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/themes/computerhoy/manifest/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/themes/computerhoy/manifest/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/themes/computerhoy/manifest/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/themes/computerhoy/manifest/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/themes/computerhoy/manifest/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/themes/computerhoy/manifest/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/themes/computerhoy/manifest/apple-touch-icon-180x180.png" />
+<link href="/themes/computerhoy/manifest/manifest.json" rel="manifest" />
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.eu01.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"e1ea0e896a",applicationID:"6096704"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<script type="text/javascript">!function () { var e = function () { var e, t = "__tcfapiLocator", a = [], n = window; for (; n;) { try { if (n.frames[t]) { e = n; break } } catch (e) { } if (n === window.top) break; n = n.parent } e || (!function e() { var a = n.document, r = !!n.frames[t]; if (!r) if (a.body) { var i = a.createElement("iframe"); i.style.cssText = "display:none", i.name = t, a.body.appendChild(i) } else setTimeout(e, 5); return !r }(), n.__tcfapi = function () { for (var e, t = arguments.length, n = new Array(t), r = 0; r < t; r++)n[r] = arguments[r]; if (!n.length) return a; if ("setGdprApplies" === n[0]) n.length > 3 && 2 === parseInt(n[1], 10) && "boolean" == typeof n[3] && (e = n[3], "function" == typeof n[2] && n[2]("set", !0)); else if ("ping" === n[0]) { var i = { gdprApplies: e, cmpLoaded: !1, cmpStatus: "stub" }; "function" == typeof n[2] && n[2](i) } else a.push(n) }, n.addEventListener("message", (function (e) { var t = "string" == typeof e.data, a = {}; try { a = t ? JSON.parse(e.data) : e.data } catch (e) { } var n = a.__tcfapiCall; n && window.__tcfapi(n.command, n.version, (function (a, r) { var i = { __tcfapiReturn: { returnValue: a, success: r, callId: n.callId } }; t && (i = JSON.stringify(i)), e.source.postMessage(i, "*") }), n.parameter) }), !1)) }; "undefined" != typeof module ? module.exports = e : e() }();</script>
+<script>window._sp_ = {"config":{"accountId":1305,"baseEndpoint":"https:\/\/cmpsp.computerhoy.com","propertyHref":"https:\/\/www.computerhoy.com"}}</script>
+<script src="https://cmpsp.computerhoy.com/wrapperMessagingWithoutDetection.js"></script>
+<script src="/modules/rn_common/as_sourcepoint_cmp/js/as_cmp.js"></script>
+<script>var adsConfig = {"adunit":"tecnologia\/reportaje","keywords":{"categoria":"tecnologia","tag":["componentes","diseno","juegos","memoria","ofimatica","pc","ram"],"tipo_contenido":"reportaje","nid":"30767","entorno":"prod"}};</script>
+<script>!function(){var e=document.getElementsByTagName("script")[0],t="https://libs.aseads.com/stable/computerhoy.com/library.js";window.location.search.match(/ads_test=true/)&&(t=t.replace("/stable/","/dev/"));var n=document.createElement("script");n.async=!0,n.src=t,e.parentNode.insertBefore(n,e)}();</script>
+<script>document.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/"; var setNptTechAdblockerCookie = function(adblocker) { var d = new Date(); d.setTime(d.getTime() + 60 * 5 * 1000); document.cookie = "__adblocker=" + (adblocker ? "true" : "false") + "; expires=" + d.toUTCString() + "; path=/"; }; var script = document.createElement("script"); script.setAttribute("async", true); script.setAttribute("src", "//www.npttech.com/advertising.js"); script.setAttribute("onerror", "setNptTechAdblockerCookie(true);"); document.getElementsByTagName("head")[0].appendChild(script);</script>
+<script type="text/javascript" src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js" defer=""></script>
+<script type="text/javascript" src="https://www.gstatic.com/firebasejs/7.9.1/firebase-messaging.js" defer=""></script>
+<meta name="title" content="¿Cuál es la cantidad de memoria RAM adecuada para mi PC?  | Tecnología - ComputerHoy.com" />
+<meta property="twitter:creator" content="@computerhoy" />
+<meta property="twitter:card" content="summary_large_image" />
+<link rel="canonical" href="https://computerhoy.com/noticias/hardware/cual-es-cantidad-memoria-ram-adecuada-mi-pc-61856" />
+<meta property="og:site_name" content="ComputerHoy" />
+<meta property="twitter:site" content="@computerhoy" />
+<meta property="og:type" content="article" />
+<meta property="twitter:title" content="¿Cuál es la cantidad de memoria RAM adecuada para mi PC?" />
+<meta name="description" content="Si estás pensando en actualizar o cambiar o actualizar tu ordenador, te preguntarás cuánta memoria RAM necesitarás. Aquí te lo contamos con todo detalle." />
+<meta property="twitter:description" content="Si estás pensando en actualizar o cambiar o actualizar tu ordenador, te preguntarás cuánta memoria RAM necesitarás. Aquí te lo contamos con todo detalle." />
+<meta property="og:url" content="https://computerhoy.com/noticias/hardware/cual-es-cantidad-memoria-ram-adecuada-mi-pc-61856" />
+<meta property="og:title" content="¿Cuál es la cantidad de memoria RAM adecuada para mi PC?" />
+<link rel="image_src" href="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2017/05/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=qp0auO-c" />
+<meta property="twitter:image" content="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2017/05/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=qp0auO-c" />
+<meta property="twitter:url" content="https://computerhoy.com/noticias/hardware/cual-es-cantidad-memoria-ram-adecuada-mi-pc-61856" />
+<meta property="og:description" content="Si estás pensando en actualizar o cambiar o actualizar tu ordenador, te preguntarás cuánta memoria RAM necesitarás. Aquí te lo contamos con todo detalle." />
+<meta property="article:section" content="Tecnología" />
+<meta property="article:published_time" content="2017-05-07T09:01:04+02:00" />
+<meta property="article:modified_time" content="2017-05-07T09:01:04+02:00" />
+<meta property="og:image" content="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2017/05/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=qp0auO-c" />
+<meta property="article:publisher" content="https://www.facebook.com/ComputerHoy" />
+<meta property="article:tag" content="componentes,diseño,juegos,Memoria,ofimática,PC,RAM" />
+<meta property="og:image:url" content="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2017/05/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=qp0auO-c" />
+<meta property="article:author" content="Rubén Andrés" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>.hidden{display:none}.visually-hidden{position:absolute!important;overflow:hidden;clip:rect(1px,1px,1px,1px);width:1px;height:1px;word-wrap:normal}.b-lazy,.b-responsive{display:block;opacity:0}.gallery img{width:100%}.remodal,[data-remodal-id]{display:none}.dfp-position{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin-bottom:25px}.ad-top .dfp-position{margin-bottom:0}.ad-sticky-catfish{position:fixed;text-align:center;bottom:0;left:0;width:100vw;z-index:11;-webkit-box-sizing:border-box;box-sizing:border-box;background-color:#fff;-webkit-box-shadow:0 0 5px 0 rgba(0,0,0,.2);box-shadow:0 0 5px 0 rgba(0,0,0,.2);padding:10px 5px 5px;display:none;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;overflow:visible}.ad-sticky-close-button{position:absolute;visibility:visible;width:28px;height:28px;top:-28px;right:0;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg width='13' height='13' viewBox='341 8 13 13' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%234F4F4F' d='M354 9.31L352.69 8l-5.19 5.19L342.31 8 341 9.31l5.19 5.19-5.19 5.19 1.31 1.31 5.19-5.19 5.19 5.19 1.31-1.31-5.19-5.19z' fill-rule='evenodd'/%3E%3C/svg%3E");-webkit-background-size:13px 13px;background-size:13px 13px;background-position:9px;background-color:#fff;background-repeat:no-repeat;-webkit-box-shadow:0 -1px 1px 0 rgba(0,0,0,.2);box-shadow:0 -1px 1px 0 rgba(0,0,0,.2);border:none;-webkit-border-radius:12px 0 0 0;border-radius:12px 0 0 0}.ad-sticky-close-button:before{position:absolute;content:"";top:-20px;right:0;left:-20px;bottom:0}:root{--gutter-width:10px;--outer-margin:10px;--gutter-compensation:-webkit-calc((var(--gutter-width) * 0.5) * -1);--gutter-compensation:calc((var(--gutter-width) * 0.5) * -1);--half-gutter-width:-webkit-calc((var(--gutter-width) * 0.5));--half-gutter-width:calc((var(--gutter-width) * 0.5));--xs-min:30;--sm-min:48;--md-min:61.20;--lg-min:78.125;--screen-xs-min:var(--xs-min) em;--screen-sm-min:var(--sm-min) em;--screen-md-min:var(--md-min) em;--screen-lg-min:var(--lg-min) em;--container-sm:-webkit-calc(var(--sm-min) + var(--gutter-width));--container-sm:calc(var(--sm-min) + var(--gutter-width));--container-md:-webkit-calc(var(--md-min) + var(--gutter-width));--container-md:calc(var(--md-min) + var(--gutter-width));--container-lg:-webkit-calc(var(--lg-min) + var(--gutter-width));--container-lg:calc(var(--lg-min) + var(--gutter-width))}.container{max-width:1200px;margin:0 auto}.container{margin-right:auto;margin-left:auto;-webkit-box-sizing:border-box;box-sizing:border-box}.container-main{padding-right:10px;padding-left:10px;padding-right:var(--outer-margin,32px);padding-right:var(--outer-margin,2rem);padding-left:var(--outer-margin,32px);padding-left:var(--outer-margin,2rem)}.container-main{-webkit-box-shadow:0 2px 4px 0 rgba(0,0,0,.1);box-shadow:0 2px 4px 0 rgba(0,0,0,.1);background:#fff;padding-top:20px;padding-bottom:20px}.row{-webkit-box-sizing:border-box;box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-flex:0;-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-5px;margin-left:-5px;margin-right:var(--gutter-compensation,-8px);margin-right:var(--gutter-compensation,-.5rem);margin-left:var(--gutter-compensation,-8px);margin-left:var(--gutter-compensation,-.5rem)}.col-xs-12{-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-box-flex:0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;padding-right:5px;padding-left:5px;padding-right:var(--half-gutter-width,8px);padding-right:var(--half-gutter-width,.5rem);padding-left:var(--half-gutter-width,8px);padding-left:var(--half-gutter-width,.5rem)}.col-xs-12{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%;max-width:100%}@media (min-width:30em){:root{--gutter-width:15px;--outer-margin:15px;--gutter-compensation:-webkit-calc((var(--gutter-width) * 0.5) * -1);--gutter-compensation:calc((var(--gutter-width) * 0.5) * -1);--half-gutter-width:-webkit-calc((var(--gutter-width) * 0.5));--half-gutter-width:calc((var(--gutter-width) * 0.5));--xs-min:30;--sm-min:48;--md-min:61.20;--lg-min:78.125;--screen-xs-min:var(--xs-min) em;--screen-sm-min:var(--sm-min) em;--screen-md-min:var(--md-min) em;--screen-lg-min:var(--lg-min) em;--container-sm:-webkit-calc(var(--sm-min) + var(--gutter-width));--container-sm:calc(var(--sm-min) + var(--gutter-width));--container-md:-webkit-calc(var(--md-min) + var(--gutter-width));--container-md:calc(var(--md-min) + var(--gutter-width));--container-lg:-webkit-calc(var(--lg-min) + var(--gutter-width));--container-lg:calc(var(--lg-min) + var(--gutter-width))}.row{margin-right:-7.5px;margin-left:-7.5px;margin-right:var(--gutter-compensation,-.5rem);margin-left:var(--gutter-compensation,-.5rem)}.container{width:var(--container-sm,46rem)}.container-main{padding-right:15px;padding-left:15px;padding-right:var(--outer-margin,2rem);padding-left:var(--outer-margin,2rem)}}@media (min-width:41.2em){:root{--gutter-width:15px;--outer-margin:15px;--gutter-compensation:-webkit-calc((var(--gutter-width) * 0.5) * -1);--gutter-compensation:calc((var(--gutter-width) * 0.5) * -1);--half-gutter-width:-webkit-calc((var(--gutter-width) * 0.5));--half-gutter-width:calc((var(--gutter-width) * 0.5));--xs-min:30;--sm-min:48;--md-min:61.20;--lg-min:78.125;--screen-xs-min:var(--xs-min) em;--screen-sm-min:var(--sm-min) em;--screen-md-min:var(--md-min) em;--screen-lg-min:var(--lg-min) em;--container-sm:-webkit-calc(var(--sm-min) + var(--gutter-width));--container-sm:calc(var(--sm-min) + var(--gutter-width));--container-md:-webkit-calc(var(--md-min) + var(--gutter-width));--container-md:calc(var(--md-min) + var(--gutter-width));--container-lg:-webkit-calc(var(--lg-min) + var(--gutter-width));--container-lg:calc(var(--lg-min) + var(--gutter-width))}.container{width:var(--container-sm,46rem)}}@media (min-width:48em){:root{--gutter-width:15px;--outer-margin:15px;--gutter-compensation:-webkit-calc((var(--gutter-width) * 0.5) * -1);--gutter-compensation:calc((var(--gutter-width) * 0.5) * -1);--half-gutter-width:-webkit-calc((var(--gutter-width) * 0.5));--half-gutter-width:calc((var(--gutter-width) * 0.5));--xs-min:30;--sm-min:48;--md-min:61.20;--lg-min:78.125;--screen-xs-min:var(--xs-min) em;--screen-sm-min:var(--sm-min) em;--screen-md-min:var(--md-min) em;--screen-lg-min:var(--lg-min) em;--container-sm:-webkit-calc(var(--sm-min) + var(--gutter-width));--container-sm:calc(var(--sm-min) + var(--gutter-width));--container-md:-webkit-calc(var(--md-min) + var(--gutter-width));--container-md:calc(var(--md-min) + var(--gutter-width));--container-lg:-webkit-calc(var(--lg-min) + var(--gutter-width));--container-lg:calc(var(--lg-min) + var(--gutter-width))}}@media (min-width:61.2em){.container{width:var(--container-md,61rem)}}@media (min-width:1200px){.container{width:var(--container-lg,71rem)}}.m-b-10{margin-bottom:10px}.m-b-20{margin-bottom:20px}.m-b-30{margin-bottom:30px}.m-b-40{margin-bottom:40px}.button-primary{background:#ea001d;font-size:16px;display:block;text-align:center;color:#fff;border-bottom:1px solid #bd001b;font-family:'Open Sans',Helvetica,Arial,sans-serif}html{background:#f4f4f4}*{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}li,ol,p,ul{color:#2a2a2a;font-family:"Open Sans",Helvetica,Arial,sans-serif;font-size:16px;line-height:26px;margin:0}label{color:#2a2a2a;font-family:"Open Sans",Helvetica,Arial,sans-serif;font-size:16px;line-height:26px;margin:0}a{font-family:"Open Sans",Helvetica,Arial,sans-serif;color:#ea001d;line-height:26px;font-size:16px;margin:0}h1,h2{font-family:"Open Sans",Helvetica,Arial,sans-serif}img{width:auto;display:block;height:auto;max-width:100%}input{font-family:"Open Sans",Helvetica,Arial,sans-serif;color:#2a2a2a;line-height:26px;font-size:16px;margin:0}.title{font-family:Oxygen,Helvetica,Arial,sans-serif;font-weight:700;color:#2a2a2a;font-size:27px;line-height:34px}@media (min-width:48em){.title{font-size:48px;line-height:58px}}.label-section{display:inline-block;padding:2px 18px;font-size:12px;text-transform:uppercase;color:#fff;line-height:17px;font-family:"Open Sans",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.label-section a{color:#fff;line-height:17px;font-size:12px;display:inline-block;padding:0}.label-section.label-section-content{background:#ea001d}body{margin:0}article,aside,header,main,nav,section{display:block}a{background-color:transparent;text-decoration:none}h1,h2{margin:0}img{border:0}button,input{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button,input[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}ol,ul{list-style:none;margin:0;padding:0}#banner-info{background:#464646}.ad-container{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:10px 0}@media (min-width:48em){.ad-container{margin:30px 0}}.breadcrumb{display:none}@media (min-width:61.2em){.breadcrumb{display:block}}.breadcrumb .home{padding:9px 30px 9px 15px;border:1px solid #eaeaea;text-align:center;display:inline-block;position:relative;z-index:1;margin-right:-18px;background:#fff}.breadcrumb .home a{color:#5e5e5e}.breadcrumb .element{padding:9px 27px 9px 20px;border:1px solid #eaeaea;-webkit-transform:skew(-20deg);-ms-transform:skew(-20deg);transform:skew(-20deg);text-align:center;display:inline-block;position:relative;margin-right:-12px;z-index:2;background:#fff}.breadcrumb .element a{color:#5e5e5e;-webkit-transform:skew(20deg);-ms-transform:skew(20deg);transform:skew(20deg);display:block}.breadcrumb .element:last-child a{font-weight:700;color:#ea001d;-webkit-transform:skew(20deg);-ms-transform:skew(20deg);transform:skew(20deg);display:block}.container>.block-breadcrumb{margin-top:40px}.container.container-main>.block-breadcrumb{margin-top:0;margin-bottom:0}body{padding-top:50px}@media (min-width:48em){body{padding-top:0}}.header{background:#f4f4f4;position:fixed;width:100%;top:0;z-index:100}.header .top-header{display:none}@media (min-width:48em){.header{position:relative}.header .top-header{max-height:76px;text-align:center;padding-top:4px;background:#f4f4f4}}@media (min-width:48em) and (min-width:48em){.header .top-header{display:block}}@media (min-width:48em){.header .logo-ch{display:inline-block}.header .logo-ch img{width:176px}}.header>.specials-menu{display:none}@media (min-width:1200px){.header>.specials-menu{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:50px;overflow:hidden}}.header>.specials-menu .container-submenu{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.header>.specials-menu .title-menu{font-family:Oxygen,Helvetica,Arial,sans-serif;font-size:9px;line-height:10px;color:#2a2a2a;text-transform:uppercase;position:relative;padding:15px 14px;margin-right:20px;-webkit-box-flex:0;-webkit-flex:0 0 50px;-ms-flex:0 0 50px;flex:0 0 50px;text-align:center}.header>.specials-menu .title-menu::after{content:"";position:absolute;height:70%;width:2px;top:8px;background:#5e5e5e78;right:0}.header>.specials-menu .list-links-sec{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.header>.specials-menu .list-links-sec li{-webkit-box-flex:0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;margin-right:15px}.header>.specials-menu .list-links-sec li a{font-weight:600;font-size:14px}.main-menu{height:50px;background:#2a2a2a;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;border-bottom:2px solid #ea001d;-webkit-box-shadow:0 1px 2px 0 rgba(0,0,0,.5);box-shadow:0 1px 2px 0 rgba(0,0,0,.5);-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}@media (min-width:48em){.main-menu{-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start}}.main-menu .logo-ch-fixed{height:100%;display:block}@media (min-width:48em){.main-menu .logo-ch-fixed{display:none}}.main-menu .logo-ch-fixed img{max-height:100%;width:auto}.main-menu .list-links{display:none}.main-menu .list-links a{text-transform:uppercase;color:#fff;font-size:15px}@media (min-width:48em){.main-menu .list-links{display:block}.main-menu .list-links li{display:inline-block;margin-left:14px}.main-menu .list-links li.desktop-visible{display:none}}@media (min-width:61.2em){.main-menu .list-links{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.main-menu .list-links li{margin-left:25px}.main-menu .list-links li.desktop-visible{display:inline-block}}.main-menu .main-buttons{padding:6px 6px 0 0;text-align:right;width:54px;-webkit-box-sizing:border-box;box-sizing:border-box}@media (min-width:48em){.main-menu .main-buttons{display:none}}@media (min-width:61.2em){.main-menu .main-buttons{display:inline-block;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;padding:6px 15px 0 0}}.main-menu .main-buttons .icon{display:inline-block;color:#fff;font-size:30px;margin-left:6px}.main-menu .main-buttons .ch-button-search{display:none}@media (min-width:61.2em){.main-menu .main-buttons .ch-button-search{display:inline-block}}.main-menu .main-buttons .ch-latest{display:inline-block;font-size:8px;color:#fff;text-align:center;line-height:2.4}.main-menu .main-buttons .ch-latest:before{width:26px;margin:0 auto;display:block;font-size:26px;line-height:20px}@media (min-width:48em){.main-menu .main-buttons .ch-latest{display:none}}.main-menu-trigger-button{height:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;width:54px;padding:10px;-webkit-box-sizing:border-box;box-sizing:border-box}.main-menu-trigger-button .button-menu{height:2px;width:20px;position:relative;background:#fff}.main-menu-trigger-button .button-menu:after,.main-menu-trigger-button .button-menu:before{content:"";background:#fff;height:2px;width:30px;position:absolute;top:-11px}.main-menu-trigger-button .button-menu:after{top:auto;bottom:-11px}.secondary{background:#2a2a2a;-webkit-transform:translateX(-10000px);-ms-transform:translateX(-10000px);transform:translateX(-10000px);-webkit-transform-origin:0 0;-ms-transform-origin:0 0;transform-origin:0 0;overflow:hidden;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;height:100vh;width:100vw;max-width:100%;position:absolute;z-index:98}.secondary a{color:#f0effa;font-size:14px}.secondary h2{color:#fff;font-size:16px;font-family:"Open Sans",Helvetica,Arial,sans-serif;margin-bottom:20px}@media (min-width:48em){.secondary h2{margin-bottom:0}}.secondary section{min-height:70px;width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-sizing:border-box;box-sizing:border-box}.secondary section:last-child .container-submenu{border-bottom:0}.secondary section.specials-menu h2{margin-bottom:15px}.secondary section.specials-menu .list-links-sec{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.secondary section.specials-menu .list-links-sec li{width:100%;margin-bottom:10px}@media (min-width:48em){.secondary section.specials-menu .list-links-sec li{margin:0 35px 0 0;-webkit-box-flex:0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;width:inherit}}.secondary .container-submenu{text-transform:uppercase;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;border-bottom:1px solid #5e5e5e;margin:0 var(--outer-margin);padding:30px 0;max-width:825px}@media (min-width:48em){.secondary .container-submenu{width:100%;margin:0 var(--outer-margin)}}@media (min-width:61.2em){.secondary .container-submenu{width:61.2em}}@media (min-width:1160px){.secondary .container-submenu{width:68.75em}}.secondary nav li{display:inline-block;margin-right:18px}@media (min-width:48em){.secondary nav li{margin-top:20px}}.secondary nav li a{line-height:1.2}.secondary .services ul,.secondary .tops ul{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.secondary .services ul li,.secondary .tops ul li{-webkit-flex-basis:50%;-ms-flex-preferred-size:50%;flex-basis:50%;margin-right:0}@media (min-width:48em){.secondary .services ul,.secondary .tops ul{display:block}.secondary .services ul li,.secondary .tops ul li{margin-right:18px}}.secondary .tops ul{font-size:0}.secondary .tops ul li{margin:0 0 25px 0}.secondary .tops ul li:last-child{margin:0}.secondary .tops ul li a{font-size:15px;font-weight:700}@media (min-width:48em){.secondary .tops ul li{margin:0 22px 0 0}}@media (min-width:61.2em){.secondary .tops ul li{margin:0 36px 0 0}}.secondary .product-cards li{width:100%;margin-bottom:18px}.secondary .product-cards li:last-child{margin-bottom:0}@media (min-width:48em){.secondary .product-cards li{width:auto;margin-bottom:0}}.secondary .services .container-submenu{border:0}.secondary .search .container-submenu{padding:14px 0}.secondary .search form{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.secondary .search input{-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;-webkit-box-sizing:border-box;box-sizing:border-box;padding:8px 16px;line-height:1;border:0;font-size:14px;color:#5e5e5e;outline:0;height:44px}.secondary .rrss{text-align:center}.secondary .sections{-webkit-box-sizing:border-box;box-sizing:border-box;padding-right:var(--outer-margin);padding-left:var(--outer-margin);width:100%}@media (min-width:48em){.secondary .sections{padding-right:0;padding-left:0}}.secondary .sections .container-submenu{-webkit-box-sizing:border-box;box-sizing:border-box;position:relative}.secondary .sections .container-submenu:after{content:'';width:40px;height:100%;position:absolute;top:0;right:0;background:-webkit-gradient(linear,left top,right top,from(rgba(42,42,42,0)),color-stop(70%,#2a2a2a));background:-webkit-linear-gradient(left,rgba(42,42,42,0) 0,#2a2a2a 70%);background:-o-linear-gradient(left,rgba(42,42,42,0) 0,#2a2a2a 70%);background:linear-gradient(to right,rgba(42,42,42,0) 0,#2a2a2a 70%)}.secondary .sections .container-submenu nav{overflow-x:scroll;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}.secondary .sections .container-submenu nav ul{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.secondary .sections .container-submenu nav ul li:last-child{padding-right:40px}@media (min-width:48em){.secondary .sections .container-submenu:after{content:none}.secondary .sections .container-submenu nav{overflow:auto}.secondary .sections .container-submenu nav ul{display:block}.secondary .sections .container-submenu nav ul li:last-child{padding-right:0}}.search-bar{background:#fff;height:50px;-webkit-box-shadow:0 1px 8px 4px rgba(0,0,0,.15);box-shadow:0 1px 8px 4px rgba(0,0,0,.15);-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;position:absolute;width:100%;opacity:0;bottom:2px;-webkit-transform:translateY(-1000px);-ms-transform:translateY(-1000px);transform:translateY(-1000px);z-index:1}.search-bar .container{padding-right:0;padding-left:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:50px;position:relative;width:96%}@media (min-width:1160px){.search-bar .container{width:100%}}.search-bar .container .search{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%}.search-bar .container form{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;position:relative}.search-bar .container .js-form-type-textfield{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.search-bar .container .form-actions{color:#ea001d;position:absolute;right:34px;top:-3px}.search-bar .container .form-actions:before{font-size:30px;position:absolute;z-index:0}.search-bar .container .form-actions input{border:none;background:0 0;color:transparent;height:30px;width:30px;position:relative;z-index:1}.search input[type=text]{border:0;color:#5e5e5e;font-size:16px;outline:0;width:100%;background-image:none;font-family:"Open Sans",Helvetica,Arial,sans-serif}.search input[type=text]::-webkit-input-placeholder{color:#5e5e5e;font-style:italic}.search input[type=text]:-moz-placeholder{color:#5e5e5e;opacity:1;font-style:italic}.search input[type=text]::-moz-placeholder{color:#5e5e5e;opacity:1;font-style:italic}.search input[type=text]:-ms-input-placeholder{color:#5e5e5e;font-style:italic}.search input[type=text]::-ms-input-placeholder{color:#5e5e5e;font-style:italic}.secondary .search form .js-form-type-textfield{-webkit-flex-basis:100%;-ms-flex-preferred-size:100%;flex-basis:100%}.secondary .search input[type=text]{margin-left:0;width:100%;font-size:13.5px}@media (min-width:30em){.secondary .search input[type=text]{font-size:16px}}.secondary .search .form-actions{color:#5e5e5e;background:#fff;padding:0;border-left:2px solid #e2e2e2;position:absolute;right:2px}.secondary .search .form-actions:before{font-size:26px;position:absolute;z-index:0;line-height:44px;padding-left:9px}.secondary .search .form-actions input{border:none;background:0 0;color:transparent;height:44px;width:44px;position:relative;z-index:1}.close-css{width:30px;height:30px;display:inline-block;color:#5e5e5e;position:absolute;right:0;top:10px}.close-css:after,.close-css:before{content:"";background:#5e5e5e;height:2px;width:35px;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);top:14px;position:absolute}.close-css:after{-webkit-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}.type-review header{text-align:center}.main-element img{margin:0 auto;width:100%;display:block}.article-body p{margin-bottom:25px}.article-body .gallery img{margin-bottom:0}.article-body h2{font-family:"Open Sans",Helvetica,Arial,sans-serif;font-weight:400;font-size:24px;line-height:30px;margin-bottom:20px;padding-bottom:10px;color:#5e5e5e;border-bottom:1px solid #eaeaea}@font-face{font-family:axelspringer;src:url(/themes/computerhoy/axelspringer.eot?1539934591070=);src:url(/themes/computerhoy/axelspringer.eot?1539934591070=#iefix) format("eot"),url(/themes/computerhoy/icons/axelspringer.woff2?1539934591070=) format("woff2"),url(/themes/computerhoy/icons/axelspringer.woff?1539934591070=) format("woff"),url(/themes/computerhoy/icons/axelspringer.ttf?1539934591070=) format("truetype"),url(/themes/computerhoy/icons/axelspringer.svg?1539934591070=#axelspringer) format("svg")}.icon-gallery:before,.icon-reload:before,.icon-search:before,.search-bar .container .form-actions:before,.secondary .search .form-actions:before{font-family:axelspringer;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;text-transform:none}.icon-gallery:before{content:""}.icon-reload:before{content:""}.icon-search:before,.search-bar .container .form-actions:before,.secondary .search .form-actions:before{content:""}</style>
+<link rel="shortcut icon" href="/themes/computerhoy/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="amphtml" href="https://computerhoy.com/noticias/hardware/cual-es-cantidad-memoria-ram-adecuada-mi-pc-61856?amp" />
+<script src="/sites/computerhoy.com/public/google_tag/primary/google_tag.script.js?r7pdih" defer></script>
+
+    <title>¿Cuál es la cantidad de memoria RAM adecuada para mi PC?  | Tecnología - ComputerHoy.com</title>
+    <link rel="stylesheet" media="all" href="/sites/computerhoy.com/local/assets/css/css_Efzrqeqvwn4nbrRNnxnL2PkSDpWVQQjh2BhYyc0kvTA.css" />
+<link rel="stylesheet" media="all" href="/sites/computerhoy.com/local/assets/css/css_vaz54FAsQEhiEaYKk1QgQAwCgAH7n9tsjKx4bz2xA9c.css" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/30767","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"es","aliasCurrentPath":"\/noticias\/hardware\/cual-es-cantidad-memoria-ram-adecuada-mi-pc-61856"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"as_amazon\/amazon,as_bdc_widgets\/js-min-height-content,as_ch_offers\/asgaoffers,as_ch_offers\/ga_ebay_affiliation,as_dailymotion\/as_dailymotion_embed,as_dailymotion\/as_dailymotion_ga,as_datalayer\/as_datalayer_device,as_galleries\/gallery,as_gtm\/custom_gtm,as_load_banner_info\/as_load_banner_info,as_piano\/as_piano_id,as_seedtag\/seedtag,as_social_links\/as_social_links,blazy\/load,components_final_content\/authorship_information,components_newsletter\/global,computerhoy\/global-styling,computerhoy\/js-footer,core\/drupal.autocomplete,core\/html5shiv,core\/picturefill,entity_embed\/caption,navi_search_ch\/navi_search_ch.header_search,system\/base,video_embed_field\/responsive-video,views\/views.module","theme":"computerhoy","theme_token":null},"ajaxTrustedUrl":{"\/search\/news":true},"dataLayer":{"site_id":"computerhoy","author":["Rub\u00e9n Andr\u00e9s"],"publish_time":"2017-05-07 09:01:04","update_time":"2017-05-07 09:01:04","article_id":"30767","content_type":["Reportaje"],"layout":["default"],"category":["Tecnologia"],"author_id":["3814"],"editor_id":"","tag":["componentes","diseno","juegos","Memoria","ofimatica","PC","RAM"],"nombre_especial":"","otros_especiales":"","section":"","thumbnail_image":"https:\/\/cdn.computerhoy.com\/sites\/navi.axelspringer.es\/public\/styles\/480x480\/public\/media\/image\/2017\/05\/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=3HTKXmQv","mediatype":"image","device":"desktop","createdby":"","lastmodify":"","canonical":"https:\/\/computerhoy.com\/noticias\/hardware\/cual-es-cantidad-memoria-ram-adecuada-mi-pc-61856","hrefland":"","marketing":"n","categorias_secundarias":"","accesstype":"abierto","optimizacion_editorial":false},"gallery_new":{"page":0},"as_piano":{"app_id":"sGZA0Bwspe","url":"\/\/experience-eu.piano.io\/xbuilder\/experience\/load"},"as_seedtag":{"seedtagSettings":{"seedtagid":"7132-7381-01","types":[]}},"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50},"blazyIo":{"enabled":false,"disconnect":false,"rootMargin":"0px","threshold":[0]},"embedsDailymotion":{"k6Io854UFu2XAXlcSEM":"k6Io854UFu2XAXlcSEM"},"as_social_links":{"counter":false,"base_path":"\/","uuid":"ff562dcb-0bf3-4359-84c0-e6277a8f508b","domain":"computerhoy.com","width":575,"height":400},"uuid":"ff562dcb-0bf3-4359-84c0-e6277a8f508b","rudomain":"navi.axelspringer.es","type":"node","user":{"uid":0,"permissionsHash":"37d529e9dedd6b5c2762f118ab0a516672db896e7f964da7272464ef72399a0f"}}</script>
+
+<!--[if lte IE 8]>
+<script src="/sites/computerhoy.com/local/assets/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="/sites/computerhoy.com/local/assets/js/js_Sve8wwCKRLw_jFblGBzvXFs2-inuo3X-6xhVnXAIUpY.js"></script>
+
+      </head>
+  <body class="path-node page-node-type-article">
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6NC728" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<div class="layout-container column-show">
+
+  <header class="header" role="banner">
+    <div class="top-header">
+                <a class="logo-ch" href="/" title="Ir a Portada de CH" rel="home">
+            <img src="/themes/computerhoy/img/logo-computerhoy.png" alt="ComputerHoy.com" loading="lazy" width="350" height="146"/>
+        </a>
+                
+    </div>
+    <nav class="main-menu">
+      <div class="main-menu-trigger-button">
+        <div class="button-menu">
+        </div>
+      </div>
+      <div class="logo-ch-fixed">
+        <a href="/">
+          <img src="/themes/computerhoy/img/logo-computerhoy-min.png" alt="ComputerHoy.com" loading="lazy" width="100" height="100"/>
+        </a>
+      </div>
+      <ul class="list-links menu_list">
+        <li><a data-gacat="Primary Links" href="/ultimo">Lo último</a></li>
+        <li><a data-gacat="Primary Links" href="/tecnologia">Tecnología</a></li>
+        <li><a data-gacat="Primary Links" href="/entretenimiento">Entretenimiento</a></li>
+        <li><a data-gacat="Primary Links" href="/gaming">Gaming</a></li>
+        <li><a data-gacat="Primary Links" href="/life">Life</a></li>
+        <li class="desktop-visible"><a data-gacat="Primary Links" href="/motor">Motor</a></li>
+        <li><a data-gacat="Primary Links" href="/fichas">Productos</a></li>
+        <li class="desktop-visible"><a data-gacat="Primary Links" href="/newsletter">Newsletter</a></li>
+      </ul>
+      <div class="main-buttons">
+        <div id="block-piano-login-block">
+  
+    
+      <a href="/actualizate-a-computerhoy" class="boton-login">
+  <svg xmlns="http://www.w3.org/2000/svg" height="29px" viewBox="0 0 21 21" width="29px" fill="#FFFFFF">
+    <path d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M3 5v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2H5c-1.11 0-2 .9-2 2zm12 4c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3zm-9 8c0-2 4-3.1 6-3.1s6 1.1 6 3.1v1H6v-1z"></path>
+  </svg>
+</a>
+  </div>
+
+        <a class="ch-button-search icon icon-search"></a>
+      </div>
+    </nav>
+            <div class="search-bar desktop">
+            <div class="container">
+                <section class="search">
+  <div class="container-submenu">
+          <form block="block-searchform" action="/search/news" method="get" id="navi-search-ch-block-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Buscar</label>
+        <input title="Escriba lo que quiere buscar." data-drupal-selector="edit-keys" class="form-autocomplete form-text" data-autocomplete-path="/navi-search/product-autocomplete" type="text" id="edit-keys" name="keys" value="" size="15" maxlength="128" placeholder="Escribe aquí lo que quieres buscar..." />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Buscar" class="button js-form-submit form-submit button-primary" />
+</div>
+
+</form>
+
+      </div>
+</section>
+
+                <a class="ch-button-close close-css"></a>
+            </div>
+        </div>
+                  <section class="specials-menu">
+    <div class="container-submenu">
+      <h2 class="title-menu">Nuestros partners</h2>
+      <nav>
+        <ul class="list-links-sec"><li><a href="/especiales/innovacion-lg" title="Innovación LG" data-gacat="Primary Links">Innovación LG</a>
+</li><li><a href="/especiales/xiaomi" title="Universo Smart by Xiaomi" data-gacat="Primary Links">Universo Smart by Xiaomi</a>
+</li><li><a href="/especiales/especial-realme" title="Da el salto con realme" data-gacat="Primary Links">Da el salto con realme</a>
+</li></ul>
+      </nav>
+    </div>
+  </section>
+
+        <div class="secondary">
+                      <section class="specials-menu">
+    <div class="container-submenu">
+      <h2 class="title-menu">Nuestros partners</h2>
+      <nav>
+        <ul class="list-links-sec"><li><a href="/especiales/innovacion-lg" title="Innovación LG" data-gacat="Primary Links">Innovación LG</a>
+</li><li><a href="/especiales/xiaomi" title="Universo Smart by Xiaomi" data-gacat="Primary Links">Universo Smart by Xiaomi</a>
+</li><li><a href="/especiales/especial-realme" title="Da el salto con realme" data-gacat="Primary Links">Da el salto con realme</a>
+</li></ul>
+      </nav>
+    </div>
+  </section>
+
+                            <section class="search">
+  <div class="container-submenu">
+          <form block="block-searchform" action="/search/news" method="get" id="navi-search-ch-block-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="visually-hidden">Buscar</label>
+        <input title="Escriba lo que quiere buscar." data-drupal-selector="edit-keys" class="form-autocomplete form-text" data-autocomplete-path="/navi-search/product-autocomplete" type="text" id="edit-keys" name="keys" value="" size="15" maxlength="128" placeholder="Escribe aquí lo que quieres buscar..." />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Buscar" class="button js-form-submit form-submit button-primary" />
+</div>
+
+</form>
+
+      </div>
+</section>
+
+                <section class="tops">
+            <div class="container-submenu">
+                <nav class="main-nav">
+                <ul>
+                    <li><a data-gacat="Primary Links" href="/ultimo">Lo último</a></li>
+                    <li><a data-gacat="Primary Links" href="/tecnologia">Tecnología</a></li>
+                    <li><a data-gacat="Primary Links" href="/entretenimiento">Entretenimiento</a></li>
+                    <li><a data-gacat="Primary Links" href="/gaming">Gaming</a></li>
+                    <li><a data-gacat="Primary Links" href="/life">Life</a></li>
+                    <li><a data-gacat="Primary Links" href="/motor">Motor</a></li>
+                    <li><a data-gacat="Primary Links" href="/fichas">Productos</a></li>
+                    <li><a data-gacat="Primary Links" href="/newsletter">Newsletter</a></li>
+                </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="sections">
+            <div class="container-submenu">
+                <h2 class="title-menu">Secciones</h2>
+                <nav>
+                <ul>
+                    <li><a data-gacat="Primary Links" href="/noticias">Noticias</a></li>
+                    <li><a data-gacat="Primary Links" href="/analisis">Análisis</a></li>
+                    <li><a data-gacat="Primary Links" href="/tutoriales">Tutoriales</a></li>
+                    <li><a data-gacat="Primary Links" href="/listas">Listas</a></li>
+                    <li><a data-gacat="Primary Links" href="/reportajes">Reportajes</a></li>
+                    <li><a data-gacat="Primary Links" href="/especiales">Especiales</a></li>
+                </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="product-cards">
+            <div class="container-submenu">
+                <h2 class="title-menu">Fichas de productos</h2>
+                <nav>
+                <ul>
+                    <li><a data-gacat="Primary Links" href="/fichas/moviles">Móviles</a></li>
+                    <li><a data-gacat="Primary Links" href="/fichas/tablets">Tablets</a></li>
+                </ul>
+                </nav>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container-submenu">
+                <h2>Servicios</h2>
+                <nav>
+                <ul>
+                    <li><a data-gacat="Primary Links" href="https://buscar-coche.autobild.es/recomendador">Buscador de coches</a></li>
+                </ul>
+                </nav>
+            </div>
+        </section>
+                        <section class="rrss">
+            <div class="container-submenu">
+                <nav>
+                <ul>
+                    <li><a rel="nofollow" target="_blank" href="https://www.facebook.com/ComputerHoy" class="icon icon-facebook"></a></li>
+                    <li><a rel="nofollow" target="_blank" href="https://twitter.com/computerhoy" class="icon icon-twitter"></a></li>
+                    <li><a rel="nofollow" target="_blank" href="https://www.youtube.com/user/ComputerhoyTV" class="icon icon-head-youtube"></a></li>
+                    <li><a rel="nofollow" target="_blank" href="https://www.instagram.com/computerhoy/" class="icon icon-instagram"></a></li>
+                    <li><a rel="nofollow" target="_blank" href="/rss_all/all/rss.xml" class="icon icon-rss"></a></li>
+                </ul>
+                </nav>
+            </div>
+        </section>
+    </div>
+            
+            <div id="banner-info"></div>
+    
+
+    </header>
+    
+
+  
+  <div class="supercontent">
+    <div class="sky skyleft">
+      <div id="sky_left" class="dfp-position sky_left" data-axel-springer-ads="true" data-dfp-display="all">
+</div>
+
+    </div>
+    <main role="main">
+      <aside class="ad-container ad-top">
+        <div id="x01" class="dfp-position x01" data-axel-springer-ads="true" data-dfp-display="all">
+</div>
+
+        <div id="mega_desktop" class="dfp-position mega_desktop" data-axel-springer-ads="true" data-dfp-display="all">
+</div>
+
+              </aside>
+      <a id="main-content" tabindex="-1"></a>      <div class="layout-content">
+                  <div class="container container-main m-b-30">
+          <div data-drupal-messages-fallback class="hidden"></div><div id="block-breadcrumbs" class="block-breadcrumb">
+        <nav role="navigation" aria-labelledby="system-breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol class="breadcrumb m-b-20">
+          <li class="home">
+                  <a href="/" title="Home">Home</a>
+              </li>
+          <li class="element">
+                  <a href="/noticias" title="Noticias">Noticias</a>
+              </li>
+        </ol>
+  </nav>
+
+  </div>
+  <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/computerhoy.com\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/computerhoy.com\/noticias","name":"Noticias"}}]}</script>
+
+  <script type="application/ld+json">{"@context":"https:\/\/schema.org","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/computerhoy.com\/noticias\/hardware\/cual-es-cantidad-memoria-ram-adecuada-mi-pc-61856"},"headline":"\u00bfCu\u00e1l es la cantidad de memoria RAM adecuada para mi PC?","name":"\u00bfCu\u00e1l es la cantidad de memoria RAM adecuada para mi PC?","url":"https:\/\/computerhoy.com\/noticias\/hardware\/cual-es-cantidad-memoria-ram-adecuada-mi-pc-61856","datePublished":"2017-05-07T09:01:04+0200","dateCreated":"2017-05-07T09:01:04+0200","dateModified":"2017-05-07T09:01:04+0200","publisher":{"@type":"Organization","name":"ComputerHoy","logo":{"@type":"ImageObject","url":"https:\/\/computerhoy.com\/themes\/computerhoy\/img\/logo-computerhoy.png","height":"146px","width":"350px"}},"copyrightYear":"2017","inLanguage":"es-es","creator":{"@context":"https:\/\/schema.org","@type":"Person","url":"https:\/\/computerhoy.com\/usuarios\/ruben-andres","name":"Rub\u00e9n Andr\u00e9s"},"editor":{"@context":"https:\/\/schema.org","@type":"Person","url":"https:\/\/computerhoy.com\/usuarios\/ruben-andres","name":"Rub\u00e9n Andr\u00e9s"},"author":{"@context":"https:\/\/schema.org","@type":"Person","url":"https:\/\/computerhoy.com\/usuarios\/ruben-andres","name":"Rub\u00e9n Andr\u00e9s"},"image":{"@type":"ImageObject","url":"https:\/\/cdn.computerhoy.com\/sites\/navi.axelspringer.es\/public\/styles\/1200\/public\/media\/image\/2017\/05\/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=qp0auO-c","height":null,"width":"1200"},"associatedMedia":{"@type":"ImageObject","url":"https:\/\/cdn.computerhoy.com\/sites\/navi.axelspringer.es\/public\/styles\/1200\/public\/media\/image\/2017\/05\/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=qp0auO-c","height":null,"width":"1200"},"thumbnailurl":"https:\/\/cdn.computerhoy.com\/sites\/navi.axelspringer.es\/public\/media\/image\/2017\/05\/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg","description":"Si est\u00e1s pensando en actualizar o cambiar o actualizar tu ordenador, te preguntar\u00e1s cu\u00e1nta memoria RAM necesitar\u00e1s. Aqu\u00ed te lo contamos con todo detalle.","keywords":"qu\u00e9 es la memoria ram, ram para windows 10, ram windows 10, ram necesaria windows 10, requisitos windows 10, consumo windows 10, cuanta ram necesito","copyrightHolder":"ComputerHoy","@type":"NewsArticle","articlebody":"\u003Cbody\u003E\n\u003Cp\u003ECuando te preparas para \u003Cstrong\u003Ecambiar o actualizar tu\nordenador\u003C\/strong\u003E, es habitual preguntarse \u003Cstrong\u003Equ\u0026eacute; componentes\nson los adecuados para que tu nuevo PC\u003C\/strong\u003E no se te quede\ncorto en prestaciones al poco tiempo, pero sin que tengas que\nempe\u0026ntilde;ar uno de tus ri\u0026ntilde;ones para pagar la factura final.\u003C\/p\u003E\n\u003Cp\u003EEncontrar ese equilibrio entre \u003Cstrong\u003Eprecio y prestaciones del\nhardware de tu PC\u003C\/strong\u003E no es demasiado complicado en\ncomponentes como el \u003Ca href=\u0022http:\/\/amzn.to\/2q1fpWg\u0022 rel=\u0022NoFollow\u0022 target=\u0022_blank\u0022 title=\u0022Procesadores en Amazon\u0022\u003Eprocesador\u003C\/a\u003E o la\n\u003Ca href=\u0022http:\/\/amzn.to\/2quLk1e\u0022 rel=\u0022NoFollow\u0022 target=\u0022_blank\u0022 title=\u0022Tarjeta gr\u0026aacute;fica en Amazon\u0022\u003Etarjeta gr\u0026aacute;fica\u003C\/a\u003E, donde existe\nmucha informaci\u0026oacute;n y pruebas de rendimiento relacionadas con ellos,\nas\u0026iacute; como una catalogaci\u0026oacute;n muy espec\u0026iacute;fica de los diferentes\nproductos.\u003C\/p\u003E\n\u003Cp\u003EUna de las preguntas m\u0026aacute;s repetidas en esta situaci\u0026oacute;n es:\n\u003Cstrong\u003E\u0026iquest;Cu\u0026aacute;l es la cantidad de memoria RAM adecuada para mi\nPC?\u003C\/strong\u003E\u003C\/p\u003E\n\u003Cp\u003ELo cierto es que no existe una cantidad de memoria correcta para\ntodos los ordenadores, sino que depende mucho del trabajo que vaya\nrealizar el usuario con ese ordenador y de los programas que\nnecesite ejecutar.\u003C\/p\u003E\n\u003Ch2\u003E\u003Cstrong\u003E\u003Cdrupal-entity data-align=\u0022none\u0022 data-embed-button=\u0022media_embed\u0022 data-entity-embed-display=\u0022entity_reference:as_entity_reference_entity_view\u0022 data-entity-embed-settings=\u0027{\u0022view_mode\u0022:\u0022default\u0022}\u0027 data-entity-id=\u0022910126\u0022 data-entity-label=\u0022Media Embed\u0022 data-entity-type=\u0022media\u0022 data-entity-uuid=\u0022a5107c19-daa2-4786-a1a8-f6cfd7888cc9\u0022\u003E\u003C\/drupal-entity\u003E\u003C\/strong\u003E\u003C\/h2\u003E\n\u003Ch2\u003E\u0026iquest;Qu\u0026eacute; es y c\u0026oacute;mo funciona la memoria RAM?\u003C\/h2\u003E\n\u003Cp\u003EPara juzgar con criterio \u003Cstrong\u003Ecu\u0026aacute;nta memoria RAM necesitas en\ntu ordenador\u003C\/strong\u003E es recomendable saber \u003Cstrong\u003Equ\u0026eacute; funci\u0026oacute;n\ncumple la memoria RAM en la estructura de un\nordenador\u003C\/strong\u003E.\u003C\/p\u003E\n\u003Cp\u003E\u003Cstrong\u003ELa memoria RAM es un tipo de memoria vol\u0026aacute;til\u003C\/strong\u003E\nque el sistema utiliza para almacenar los datos que est\u0026aacute; utilizando\ndurante la ejecuci\u0026oacute;n de un determinado programa. Es decir, que\ncuando ejecutas un programa en tu ordenador, el sistema carga parte\nde la informaci\u0026oacute;n que necesita para ejecutarlo en la memoria RAM,\nas\u0026iacute; como los nuevos datos que se generan mientras realizas tareas\ndentro de ese programa.\u003C\/p\u003E\n\u003Cblockquote\u003E\n\u003Cp\u003E\u003Ca href=\u0022https:\/\/computerhoy.com\/listas\/zona-gaming\/monta-configura-tu-pc-gamer-menos-600-euros-49530\u0022 title=\u0022Monta y configura tu pc gamer por menos de 600 Euros\u0022\u003EMonta\ny configura tu pc gamer por menos de 600 Euros\u003C\/a\u003E\u003C\/p\u003E\n\u003C\/blockquote\u003E\n\u003Cp\u003EDado que \u003Cspan class=\u0022bold\u0022\u003Ela memoria RAM es unas 10 veces m\u0026aacute;s\nr\u0026aacute;pida que cualquier soporte de almacenamiento\u003C\/span\u003E, el sistema\ntrabaja m\u0026aacute;s fluido si tiene la cantidad de memoria RAM necesaria\npara procesar los datos para la ejecuci\u0026oacute;n de la aplicaci\u0026oacute;n, as\u0026iacute;\ncomo los que se generen con el funcionamiento de la propia\naplicaci\u0026oacute;n.\u003C\/p\u003E\n\u003Cdrupal-entity data-align=\u0022none\u0022 data-embed-button=\u0022media_embed\u0022 data-entity-embed-display=\u0022entity_reference:as_entity_reference_entity_view\u0022 data-entity-embed-settings=\u0027{\u0022view_mode\u0022:\u0022default\u0022}\u0027 data-entity-id=\u0022910127\u0022 data-entity-label=\u0022Media Embed\u0022 data-entity-type=\u0022media\u0022 data-entity-uuid=\u0022c762b7a7-c028-4743-9a05-28cd51f5e922\u0022\u003E\u003C\/drupal-entity\u003E\n\u003Cp\u003EAs\u0026iacute;, cuando inicias un programa como Photoshop, el sistema carga\nen la memoria RAM los datos que necesita procesar para hacer\nfuncionar el programa. Despu\u0026eacute;s, mientras editas tus fotos, el\nsistema utiliza la memoria RAM para procesar los datos necesario\npara el procesado de filtros, ajustes y mostrarlos en una vista\nprevia. Por lo que se \u003Cstrong\u003Eaumenta la cantidad de memoria\nRAM\u003C\/strong\u003E que ocupaba el programa reci\u0026eacute;n iniciado.\u003C\/p\u003E\n\u003Cp\u003EUna vez guardas tu trabajo y cierras el programa, se\n\u003Cstrong\u003Elibera espacio de memoria RAM\u003C\/strong\u003E a la espera de un\nnuevo programa con el que trabajar.\u003C\/p\u003E\n\u003Cp\u003ESi no dispones de la suficiente\u0026nbsp;\u003Cstrong\u003Ecantidad de memoria\nRAM que los programas necesitan\u003C\/strong\u003E, el sistema utilizar\u0026aacute; el\ndisco duro para almacenar esos archivos que est\u0026aacute; usando, por lo que\nsu funcionamiento se ralentizar\u0026aacute;.\u003C\/p\u003E\n\u003Cblockquote\u003E\n\u003Cp\u003E\u003Ca href=\u0022https:\/\/computerhoy.com\/listas\/software\/como-mejorar-rendimiento-tu-equipo-formatear-34771\u0022 title=\u0022C\u0026oacute;mo mejorar el rendimiento de tu equipo sin formatear\u0022\u003EC\u0026oacute;mo\nmejorar el rendimiento de tu equipo sin formatear\u003C\/a\u003E\u003C\/p\u003E\n\u003C\/blockquote\u003E\n\u003Ch2\u003ETener m\u0026aacute;s memoria RAM no acelera tu PC\u003C\/h2\u003E\n\u003Cp\u003EUna de las reacciones m\u0026aacute;s habituales cuando tu PC no funciona lo\nsuficientemente fluido es \u003Cstrong\u003Eampliar la memoria RAM\u003C\/strong\u003E,\nsin ni siquiera comprobar si el problema lo provoca realmente esta\nfalta de capacidad de memoria RAM o el descenso del rendimiento\nviene por un aumento de temperatura, falta de potencia o fallos del\nprocesador, del disco o de la tarjeta gr\u0026aacute;fica,etc.\u003C\/p\u003E\n\u003Cp\u003E\u003Cstrong\u003EAumentar la cantidad de RAM instalada en tu PC no lo\nacelerar\u0026aacute;\u003C\/strong\u003E por s\u0026iacute; misma y \u003Cspan class=\u0022bold\u0022\u003Esi tu PC\nfunciona m\u0026aacute;s lento de lo normal, no tiene porqu\u0026eacute; necesitar m\u0026aacute;s\nmemoria RAM\u003C\/span\u003E. Es posible que sea otro componente el que no\nest\u0026aacute; funcionando correctamente y lastrando el rendimiento del\nresto.\u003C\/p\u003E\n\u003Cp\u003EPara determinar si la falta de RAM est\u0026aacute; ralentizando tu PC solo\nnecesitas echar un vistazo al \u003Cspan class=\u0022bold\u0022\u003EAdministrador de\ntareas\u003C\/span\u003E y ver \u003Cstrong\u003Ecu\u0026aacute;nta RAM est\u0026aacute; usando\nWindows\u003C\/strong\u003E. Si la cantidad es igual o superior a la que\ntienes instalada, entonces s\u0026iacute; \u003Cstrong\u003Enecesitas ampliar la memoria\nRAM de tu ordenador\u003C\/strong\u003E.\u003C\/p\u003E\n\u003Cdrupal-entity data-align=\u0022none\u0022 data-embed-button=\u0022media_embed\u0022 data-entity-embed-display=\u0022entity_reference:as_entity_reference_entity_view\u0022 data-entity-embed-settings=\u0027{\u0022view_mode\u0022:\u0022default\u0022}\u0027 data-entity-id=\u0022910128\u0022 data-entity-label=\u0022Media Embed\u0022 data-entity-type=\u0022media\u0022 data-entity-uuid=\u0022caff9f5a-0761-407a-b837-597f17795a64\u0022\u003E\u003C\/drupal-entity\u003E\n\u003Ch2\u003E\u0026iquest;Cu\u0026aacute;nta memoria RAM necesito en mi ordenador?\u003C\/h2\u003E\n\u003Cp\u003EComo ya te hemos comentado, la cantidad necesaria la define el\ntipo de uso que vaya a tener ese equipo y, como norma general,\n\u003Cspan class=\u0022bold\u0022\u003Etoda la memoria RAM adicional que instales solo\nservir\u0026aacute; para encarecer la factura final\u003C\/span\u003E ya que probablemente\nnunca llegar\u0026aacute;s a usarla.\u003C\/p\u003E\n\u003Cdiv class=\u0022contain-table\u0022\u003E\u003Ctable border=\u00221\u0022 cellpadding=\u00221\u0022 cellspacing=\u00221\u0022 class=\u0022tabla-datos\u0022\u003E\n\u003Cthead\u003E\n\u003Ctr\u003E\n\u003Cth scope=\u0022row\u0022\u003ETipo de PC\u003C\/th\u003E\n\u003Cth scope=\u0022col\u0022\u003EUsos habituales\u003C\/th\u003E\n\u003Cth scope=\u0022col\u0022\u003EMemoria RAM recomendada (con Windows 10 de 64\nbits)\u003C\/th\u003E\n\u003C\/tr\u003E\n\u003C\/thead\u003E\n\u003Ctbody\u003E\n\u003Ctr\u003E\n\u003Cth scope=\u0022row\u0022\u003EEquipo para ofim\u0026aacute;tica\u003C\/th\u003E\n\u003Ctd\u003ETareas de oficina, navegaci\u0026oacute;n, correo, redes sociales, ver\nv\u0026iacute;deos en YouTube, etc.\u003C\/td\u003E\n\u003Ctd\u003E\u003Cspan class=\u0022bold\u0022\u003EM\u0026aacute;ximo de 4GB\u003C\/span\u003E. La mayor\u0026iacute;a pueden\nfuncionar perfectamente con 2 GB.\u003C\/td\u003E\n\u003C\/tr\u003E\n\u003Ctr\u003E\n\u003Cth scope=\u0022row\u0022\u003EEquipos gaming\u003C\/th\u003E\n\u003Ctd\u003EJugar a videojuegos.\u003C\/td\u003E\n\u003Ctd\u003E\u003Cspan class=\u0022bold\u0022\u003EM\u0026aacute;ximo 16 GB\u003C\/span\u003E. Para la gran mayor\u0026iacute;a de\nvideojuegos actuales les sobra con 8 GB, pero cada vez exigen m\u0026aacute;s\nrequisitos.\u003C\/td\u003E\n\u003C\/tr\u003E\n\u003Ctr\u003E\n\u003Cth scope=\u0022row\u0022\u003EEquipos profesionales para edici\u0026oacute;n de v\u0026iacute;deo, foto,\ncontenido 3D y dise\u0026ntilde;o.\u003C\/th\u003E\n\u003Ctd\u003EEditar v\u0026iacute;deo y foto de gran formato, renderizado de v\u0026iacute;deo,\ntexturas 3D, renderizado vectorial, AutoCAD, Maya uso de\naplicaciones Adobe (Photoshop, After Effects, Premiere, etc.)\u003C\/td\u003E\n\u003Ctd\u003E\u003Cspan class=\u0022bold\u0022\u003EM\u0026iacute;nimo 16 GB\u003C\/span\u003E. En este caso el l\u0026iacute;mite\nlo pone la placa base y los requisitos del programa. En este tipo\nde configuraciones, la RAM siempre es bienvenida.\u003C\/td\u003E\n\u003C\/tr\u003E\n\u003C\/tbody\u003E\n\u003C\/table\u003E\u003C\/div\u003E\n\u003Cblockquote\u003E\n\u003Cp\u003E\u003Ca href=\u0022https:\/\/computerhoy.com\/paso-a-paso\/software\/conoce-fondo-componentes-tu-ordenador-33087\u0022 title=\u0022Conoce a fondo los componentes de tu ordenador\u0022\u003EConoce a\nfondo los componentes de tu ordenador\u003C\/a\u003E\u003C\/p\u003E\n\u003C\/blockquote\u003E\n\u003Ch2\u003ELo mejor es de dos en dos\u003C\/h2\u003E\n\u003Cp\u003EAl \u003Cstrong\u003Eelegir la memoria RAM que necesitas para tu\nPC\u003C\/strong\u003E debes tener en cuenta que, si la placa lo permite,\nsiempre es mejor dividirla en dos m\u0026oacute;dulos, algo que en el caso de\nlos port\u0026aacute;tiles no siempre es posible.\u003C\/p\u003E\n\u003Cp\u003EEs decir, si necesitas 8 GB, es mejor comprar dos m\u0026oacute;dulos de 4\nGB id\u0026eacute;nticos, que uno solo de 8 GB ya que la placa base trabaja m\u0026aacute;s\nfluido en una configuraci\u0026oacute;n de dos canales (Dual Channel) que con\nun solo canal.\u003Cdrupal-entity data-align=\u0022none\u0022 data-embed-button=\u0022media_embed\u0022 data-entity-embed-display=\u0022entity_reference:as_entity_reference_entity_view\u0022 data-entity-embed-settings=\u0027{\u0022view_mode\u0022:\u0022default\u0022}\u0027 data-entity-id=\u0022910129\u0022 data-entity-label=\u0022Media Embed\u0022 data-entity-type=\u0022media\u0022 data-entity-uuid=\u0022727d71f1-aa23-4d8a-9c91-8b910e601279\u0022\u003E\u003C\/drupal-entity\u003E\u003C\/p\u003E\n\u003Ch2\u003EPC Gaming, \u0026iquest;c\u0026oacute;mo elegir la RAM adecuada?\u003C\/h2\u003E\n\u003Cp\u003EM\u0026aacute;s all\u0026aacute; de \u003Cstrong\u003Eelegir la cantidad de memoria adecuada para\ntu ordenador\u003C\/strong\u003E, en los \u003Cstrong\u003EPC para gaming\u003C\/strong\u003E y en\nconfiguraciones de ordenadores profesionales para dise\u0026ntilde;o, v\u0026iacute;deo y\nfotograf\u0026iacute;a, hay que tener muy en cuenta las caracter\u0026iacute;sticas\nt\u0026eacute;cnicas de la memoria RAM que se instala, para conseguir exprimir\nal m\u0026aacute;ximo el rendimiento de los juegos y programas.\u003C\/p\u003E\n\u003Cp\u003ESi antes de leer este art\u0026iacute;culo has mirado m\u0026iacute;nimamente los\nmodelos de memoria RAM que hay disponibles, te habr\u0026aacute;s dado cuenta\nque, dentro del tipo de memoria compatible con tu equipo (DDR,\nDDR2, DDR3 o DDR4), existe una gran diferencia en sus precios.\u003C\/p\u003E\n\u003Cblockquote\u003E\n\u003Cp\u003E\u003Ca href=\u0022https:\/\/computerhoy.com\/noticias\/hardware\/todo-que-necesitas-saber-memoria-ram-37541\u0022 title=\u0022Memoria RAM\u0022\u003E\u0026iquest;Quieres saberlo todo sobre c\u0026oacute;mo funciona la\nmemoria RAM?\u003C\/a\u003E\u003C\/p\u003E\n\u003C\/blockquote\u003E\n\u003Cp\u003EEsto, independientemente de la estrategia comercial de cada\nmarca o de la calidad de los componentes, es porque \u003Cspan class=\u0022bold\u0022\u003Eno todos los m\u0026oacute;dulos de memoria RAM son exactamente\niguales\u003C\/span\u003E, aunque su aspecto externo s\u0026iacute; pueda ser\nid\u0026eacute;ntico.\u003C\/p\u003E\n\u003Cp\u003ELos chips integrados en los m\u0026oacute;dulos de memoria RAM pueden\nfuncionar a diferentes frecuencias y con diferentes latencias. Por\nlo que, junto a la \u003Cstrong\u003Ecantidad de memoria RAM adecuada para tu\nPC gaming\u003C\/strong\u003E, tienes que tener en cuenta \u003Cstrong\u003Eelegir la\nmemoria RAM con mejor equilibrio entre frecuencia y\nlatencia\u003C\/strong\u003E.\u003C\/p\u003E\n\u003Cp\u003EEsto significa que, \u003Cspan class=\u0022bold\u0022\u003Epara un equipo gaming, es\nmucho mejor montar 8 GB de una memoria RAM con mayor frecuencia y\nmenor latencia\u003C\/span\u003E, que 16 GB con baja frecuencia y una latencia\nelevada. De ese modo, la memoria RAM ayudar\u0026aacute; a rascarle algunos\nframes por segundo m\u0026aacute;s al rendimiento que ya ofrece el procesador y\nla tarjeta gr\u0026aacute;fica.\u003C\/p\u003E\n\u003Cp\u003E\u003Ca href=\u0022http:\/\/amzn.to\/2pCgthR\u0022 rel=\u0022NoFollow\u0022 target=\u0022_blank\u0022\u003E\u003Cdrupal-entity data-align=\u0022none\u0022 data-embed-button=\u0022media_embed\u0022 data-entity-embed-display=\u0022entity_reference:as_entity_reference_entity_view\u0022 data-entity-embed-settings=\u0027{\u0022view_mode\u0022:\u0022default\u0022}\u0027 data-entity-id=\u0022910130\u0022 data-entity-label=\u0022Media Embed\u0022 data-entity-type=\u0022media\u0022 data-entity-uuid=\u00225c3a298c-7510-4164-9767-878a2bc3d04f\u0022\u003E\u003C\/drupal-entity\u003E\u003C\/a\u003E\u003C\/p\u003E\n\u003Cp\u003EEn las especificaciones t\u0026eacute;cnicas de los m\u0026oacute;dulos de memoria RAM\nencontrar\u0026aacute;s el indicador de la frecuencia expresado en megahercios\n(MHz). \u003Cspan class=\u0022bold\u0022\u003EA mayor n\u0026uacute;mero de megahercios, mayor es\nsu velocidad.\u003C\/span\u003E En el caso de la latencia, este indicador\nviene dado por el n\u0026uacute;mero de ciclos de reloj que transcurre desde\nque se realiza la petici\u0026oacute;n de datos y su ejecuci\u0026oacute;n y se expresan en\nla latencia CAS (CL) del m\u0026oacute;dulo. \u003Cspan class=\u0022bold\u0022\u003ECuanto menor\nsea el n\u0026uacute;mero que acompa\u0026ntilde;a a las siglas CL, m\u0026aacute;s r\u0026aacute;pida es la\nmemoria RAM\u003C\/span\u003E.\u003C\/p\u003E\n\u003Cp\u003EAntes de lanzarte a comprar cualquier componente para tu\nordenador, debes asegurar de que es compatible con tu placa base y\nprocesador. En el caso de la memoria RAM, conviene tener muy en\ncuenta la \u003Cstrong\u003Ecantidad de memoria m\u0026aacute;xima que soporta la placa\nbase\u003C\/strong\u003E y la frecuencia a la que puede funcionar la RAM. Todo\nello sin olvidar que debe ser de un tipo compatible con los z\u0026oacute;calos\nde memoria de la placa (DDR, DDR2, DDR3 o DDR4).\u003C\/p\u003E\n\u003Cblockquote\u003E\n\u003Cp\u003E\u003Ca href=\u0022https:\/\/computerhoy.com\/listas\/hardware\/5-razones-que-no-tirar-tu-viejo-ordenador-28927\u0022 title=\u00225 razones por las que no tirar tu viejo ordenador\u0022\u003E5 razones\npor las que no tirar tu viejo ordenador\u003C\/a\u003E\u003C\/p\u003E\n\u003C\/blockquote\u003E\n\u003Ch2\u003EOverclocking para tu memoria RAM\u003C\/h2\u003E\n\u003Cp\u003EUna vez has elegido el tipo y \u003Cstrong\u003Ecantidad de memoria RAM\nque necesitas para ordenador gaming\u003C\/strong\u003E, es posible que, para\npoder aprovechar al m\u0026aacute;ximo sus prestaciones necesites configurarlo\ndesde la BIOS (o UEFI) de tu PC.\u003C\/p\u003E\n\u003Cdrupal-entity data-align=\u0022none\u0022 data-embed-button=\u0022media_embed\u0022 data-entity-embed-display=\u0022entity_reference:as_entity_reference_entity_view\u0022 data-entity-embed-settings=\u0027{\u0022view_mode\u0022:\u0022default\u0022}\u0027 data-entity-id=\u0022814295\u0022 data-entity-label=\u0022Media Embed\u0022 data-entity-type=\u0022media\u0022 data-entity-uuid=\u00228fba39da-f6a8-4bb0-a68d-78bb4c08e5ea\u0022\u003E\u003C\/drupal-entity\u003E\n\u003Cp\u003EEn muchos casos, el m\u0026oacute;dulo de memoria RAM lleva integrados unos\nperfiles de configuraci\u0026oacute;n llamados XMP que, al conectarlo a la\nplaca, hacen los ajustes necesarios en la BIOS para\n\u003Cstrong\u003Econseguir que la memoria RAM funcione a la frecuencia que\npromet\u0026iacute;a el fabricante.\u003C\/strong\u003E\u003C\/p\u003E\n\u003Cp\u003ESi tu \u003Cstrong\u003Eplaca base o la memoria RAM no son compatibles con\nlos perfiles XMP\u003C\/strong\u003E, y dependiendo de la arquitectura de\nprocesador, tendr\u0026aacute;s que configurar algunos par\u0026aacute;metros en la BIOS de\ntu ordenador para subir el factor de multiplicaci\u0026oacute;n del SPD (Serial\nPresence Detect) y conseguir que la memoria RAM funcione a la\nvelocidad que promete el fabricante.\u003C\/p\u003E\n\u003Cblockquote\u003E\n\u003Cp\u003E\u003Ca href=\u0022https:\/\/computerhoy.com\/paso-a-paso\/hardware\/como-configurar-bios-tu-ordenador-17581\u0022 title=\u0022C\u0026oacute;mo configurar la BIOS de tu ordenador\u0022\u003EC\u0026oacute;mo configurar la\nBIOS de tu ordenador\u003C\/a\u003E\u003C\/p\u003E\n\u003C\/blockquote\u003E\n\u003Cdiv\u003E\u003Cdrupal-entity data-align=\u0022none\u0022 data-embed-button=\u0022media_embed\u0022 data-entity-embed-display=\u0022entity_reference:as_entity_reference_entity_view\u0022 data-entity-embed-settings=\u0027{\u0022view_mode\u0022:\u0022default\u0022}\u0027 data-entity-id=\u0022935725\u0022 data-entity-label=\u0022Media Embed\u0022 data-entity-type=\u0022media\u0022 data-entity-uuid=\u002235cbbb9a-48aa-43c0-9438-6ff817da942d\u0022\u003E\u003C\/drupal-entity\u003E\u003C\/div\u003E\n\n\u003C\/body\u003E\n\n","articleSection":"Tecnolog\u00eda"}</script>
+
+
+<article class="layout-default type-report">
+  <div class="m-b-40">
+      <div class="row">
+                <div class="col-xs-12">
+          <header>
+              <h1 class="title m-b-10">
+      ¿Cuál es la cantidad de memoria RAM adecuada para mi PC?
+
+      </h1>
+
+                          
+  <div class="label-section label-section-content m-b-20">
+    <a href="/reportajes">Reportaje</a>
+  </div>
+
+                          <div class="image main-element m-b-20">
+            <div class="container-img">
+    
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2017/05/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=qp0auO-c 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/2400/public/media/image/2017/05/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=_reCLWHu 2x"/>
+              <source media="(min-width: 480px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/950/public/media/image/2017/05/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=kN5Ec6Co 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2017/05/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=oR7pgCIJ 2x"/>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2017/05/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=40H5ufnS 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2017/05/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=GgZroO_2 2x"/>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2017/05/236640-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=40H5ufnS" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="624" height="352" alt="¿Cuál es la cantidad de memoria RAM adecuada para mi PC?" title="¿Cuál es la cantidad de memoria RAM adecuada para mi PC?" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      </div>
+
+      </div>
+
+            <div id="mega_1" class="dfp-position mega_1" data-axel-springer-ads="true" data-dfp-display="all">
+</div>
+
+          </header>
+        </div>
+      </div>
+        <div id="pagination-container">
+        <div class="row page-content">
+          <div class="col-xs-12 col-md">
+            <div class="row">
+              <div class="col-xs-12 col-sm m-b-20">
+                  <div class="block block-author-time">
+  
+    
+            <p class="name">
+              <a href="/redaccion/ruben-andres" rel="author" title="Rubén Andrés">Rubén Andrés</a>
+              </p>
+          <p class="time">07/05/2017 - 09:01<p/>
+      
+  </div>
+
+
+              </div>
+              <div class="col-xs-12 col-sm-auto m-b-20">
+                <div class="block-social-share-links">
+  <ul>
+          <li class="facebook">
+        <a href="http://www.facebook.com/share.php?u=https://computerhoy.com/noticias/hardware/cual-es-cantidad-memoria-ram-adecuada-mi-pc-61856" target="_blank" class="popup icon icon-facebook" title="Compartir en facebook"></a>
+      </li>
+          <li class="twitter">
+        <a href="http://twitter.com/share?text=%C2%BFCu%C3%A1l+es+la+cantidad+de+memoria+RAM+adecuada+para+mi+PC%3F&amp;url=https://computerhoy.com/noticias/hardware/cual-es-cantidad-memoria-ram-adecuada-mi-pc-61856&amp;via=computerhoy" target="_blank" class="popup icon icon-twitter" title="Compartir en twitter"></a>
+      </li>
+          <li class="flipboard">
+        <a href="https://share.flipboard.com/bookmarklet/popout?v=2&amp;title=%C2%BFCu%C3%A1l+es+la+cantidad+de+memoria+RAM+adecuada+para+mi+PC%3F&amp;url=https://computerhoy.com/noticias/hardware/cual-es-cantidad-memoria-ram-adecuada-mi-pc-61856&amp;t=1518430558759&amp;utm_campaign=tools&amp;utm_medium=article-share&amp;utm_source=flipit2" target="_blank" class="popup icon icon-flipboard" title="Compartir en flipboard"></a>
+      </li>
+          <li class="whatsapp">
+        <a href="whatsapp://send?text=%C2%BFCu%C3%A1l+es+la+cantidad+de+memoria+RAM+adecuada+para+mi+PC%3F:https://computerhoy.com/noticias/hardware/cual-es-cantidad-memoria-ram-adecuada-mi-pc-61856" target="_blank" class="popup icon icon-whatsapp" title="Compartir en whatsapp"></a>
+      </li>
+      </ul>
+</div>
+
+              </div>
+              
+              
+              <div class="article-body col-xs-12">
+      
+
+<p>Cuando te preparas para <strong>cambiar o actualizar tu
+ordenador</strong>, es habitual preguntarse <strong>qué componentes
+son los adecuados para que tu nuevo PC</strong> no se te quede
+corto en prestaciones al poco tiempo, pero sin que tengas que
+empeñar uno de tus riñones para pagar la factura final.</p><div id="roba_1" class="dfp-position roba_1" data-axel-springer-ads="true">
+</div>
+
+<p>Encontrar ese equilibrio entre <strong>precio y prestaciones del
+hardware de tu PC</strong> no es demasiado complicado en
+componentes como el <a href="http://amzn.to/2q1fpWg" rel="NoFollow" target="_blank" title="Procesadores en Amazon">procesador</a> o la
+<a href="http://amzn.to/2quLk1e" rel="NoFollow" target="_blank" title="Tarjeta gráfica en Amazon">tarjeta gráfica</a>, donde existe
+mucha información y pruebas de rendimiento relacionadas con ellos,
+así como una catalogación muy específica de los diferentes
+productos.</p>
+<p>Una de las preguntas más repetidas en esta situación es:
+<strong>¿Cuál es la cantidad de memoria RAM adecuada para mi
+PC?</strong></p><div id="native" class="dfp-position native between-paragraphs" data-axel-springer-ads="true"></div>
+
+<p>Lo cierto es que no existe una cantidad de memoria correcta para
+todos los ordenadores, sino que depende mucho del trabajo que vaya
+realizar el usuario con ese ordenador y de los programas que
+necesite ejecutar.</p>
+<h2><strong><div data-embed-button="media_embed" data-entity-embed-display="entity_reference:as_entity_reference_entity_view" data-entity-id="910126" data-entity-label="Media Embed" data-entity-type="media" data-entity-uuid="a5107c19-daa2-4786-a1a8-f6cfd7888cc9" data-entity-embed-display-settings="default" data-langcode="es" class="embedded-entity media image">  <div class="container-img">
+    
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2017/05/236644-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=zxOcQrup 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2017/05/236644-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=MfQXBL78 2x"></source>
+              <source media="(min-width: 480px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/950/public/media/image/2017/05/236644-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=syWJipdI 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2017/05/236644-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=MfQXBL78 2x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2017/05/236644-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=eS1Oc4aT 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2017/05/236644-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=zxOcQrup 2x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2017/05/236644-cual-es-cantidad-memoria-ram-adecuada-mi-pc.jpg?itok=eS1Oc4aT" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="624" height="352" alt="¿Cuál es la cantidad de memoria RAM adecuada para mi PC?" title="¿Cuál es la cantidad de memoria RAM adecuada para mi PC?" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      </div>
+</div>
+</strong></h2>
+<h2>¿Qué es y cómo funciona la memoria RAM?</h2>
+<p>Para juzgar con criterio <strong>cuánta memoria RAM necesitas en
+tu ordenador</strong> es recomendable saber <strong>qué función
+cumple la memoria RAM en la estructura de un
+ordenador</strong>.</p><div id="roba_outstream" class="dfp-position roba_outstream" data-axel-springer-ads="true">
+</div>
+
+<p><strong>La memoria RAM es un tipo de memoria volátil</strong>
+que el sistema utiliza para almacenar los datos que está utilizando
+durante la ejecución de un determinado programa. Es decir, que
+cuando ejecutas un programa en tu ordenador, el sistema carga parte
+de la información que necesita para ejecutarlo en la memoria RAM,
+así como los nuevos datos que se generan mientras realizas tareas
+dentro de ese programa.</p>
+<blockquote>
+<p><a href="https://computerhoy.com/listas/zona-gaming/monta-configura-tu-pc-gamer-menos-600-euros-49530" title="Monta y configura tu pc gamer por menos de 600 Euros">Monta
+y configura tu pc gamer por menos de 600 Euros</a></p>
+</blockquote>
+<p>Dado que <span class="bold">la memoria RAM es unas 10 veces más
+rápida que cualquier soporte de almacenamiento</span>, el sistema
+trabaja más fluido si tiene la cantidad de memoria RAM necesaria
+para procesar los datos para la ejecución de la aplicación, así
+como los que se generen con el funcionamiento de la propia
+aplicación.</p>
+<div data-embed-button="media_embed" data-entity-embed-display="entity_reference:as_entity_reference_entity_view" data-entity-id="910127" data-entity-label="Media Embed" data-entity-type="media" data-entity-uuid="c762b7a7-c028-4743-9a05-28cd51f5e922" data-entity-embed-display-settings="default" data-langcode="es" class="embedded-entity media image">  <div class="container-img">
+    
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2017/05/236642-memoria-ram-es-unas-10-veces-mas-rapida-que-cualquier-disco-duro.jpg?itok=1zRKReZz 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2017/05/236642-memoria-ram-es-unas-10-veces-mas-rapida-que-cualquier-disco-duro.jpg?itok=lauqRX6q 2x"></source>
+              <source media="(min-width: 480px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/950/public/media/image/2017/05/236642-memoria-ram-es-unas-10-veces-mas-rapida-que-cualquier-disco-duro.jpg?itok=mkXf8Ttz 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2017/05/236642-memoria-ram-es-unas-10-veces-mas-rapida-que-cualquier-disco-duro.jpg?itok=lauqRX6q 2x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2017/05/236642-memoria-ram-es-unas-10-veces-mas-rapida-que-cualquier-disco-duro.jpg?itok=snfqSEYb 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2017/05/236642-memoria-ram-es-unas-10-veces-mas-rapida-que-cualquier-disco-duro.jpg?itok=1zRKReZz 2x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2017/05/236642-memoria-ram-es-unas-10-veces-mas-rapida-que-cualquier-disco-duro.jpg?itok=snfqSEYb" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="624" height="352" alt="memoria RAM es unas 10 veces más rápida que cualquier disco duro" title="memoria RAM es unas 10 veces más rápida que cualquier disco duro" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      </div>
+</div>
+
+<p>Así, cuando inicias un programa como Photoshop, el sistema carga
+en la memoria RAM los datos que necesita procesar para hacer
+funcionar el programa. Después, mientras editas tus fotos, el
+sistema utiliza la memoria RAM para procesar los datos necesario
+para el procesado de filtros, ajustes y mostrarlos en una vista
+previa. Por lo que se <strong>aumenta la cantidad de memoria
+RAM</strong> que ocupaba el programa recién iniciado.</p>
+<p>Una vez guardas tu trabajo y cierras el programa, se
+<strong>libera espacio de memoria RAM</strong> a la espera de un
+nuevo programa con el que trabajar.</p>
+<p>Si no dispones de la suficiente <strong>cantidad de memoria
+RAM que los programas necesitan</strong>, el sistema utilizará el
+disco duro para almacenar esos archivos que está usando, por lo que
+su funcionamiento se ralentizará.</p>
+<blockquote>
+<p><a href="https://computerhoy.com/listas/software/como-mejorar-rendimiento-tu-equipo-formatear-34771" title="Cómo mejorar el rendimiento de tu equipo sin formatear">Cómo
+mejorar el rendimiento de tu equipo sin formatear</a></p>
+</blockquote>
+<h2>Tener más memoria RAM no acelera tu PC</h2>
+<p>Una de las reacciones más habituales cuando tu PC no funciona lo
+suficientemente fluido es <strong>ampliar la memoria RAM</strong>,
+sin ni siquiera comprobar si el problema lo provoca realmente esta
+falta de capacidad de memoria RAM o el descenso del rendimiento
+viene por un aumento de temperatura, falta de potencia o fallos del
+procesador, del disco o de la tarjeta gráfica,etc.</p><div id="roba_2" class="dfp-position roba_2" data-axel-springer-ads="true">
+</div>
+
+<p><strong>Aumentar la cantidad de RAM instalada en tu PC no lo
+acelerará</strong> por sí misma y <span class="bold">si tu PC
+funciona más lento de lo normal, no tiene porqué necesitar más
+memoria RAM</span>. Es posible que sea otro componente el que no
+está funcionando correctamente y lastrando el rendimiento del
+resto.</p>
+<p>Para determinar si la falta de RAM está ralentizando tu PC solo
+necesitas echar un vistazo al <span class="bold">Administrador de
+tareas</span> y ver <strong>cuánta RAM está usando
+Windows</strong>. Si la cantidad es igual o superior a la que
+tienes instalada, entonces sí <strong>necesitas ampliar la memoria
+RAM de tu ordenador</strong>.</p>
+<div data-embed-button="media_embed" data-entity-embed-display="entity_reference:as_entity_reference_entity_view" data-entity-id="910128" data-entity-label="Media Embed" data-entity-type="media" data-entity-uuid="caff9f5a-0761-407a-b837-597f17795a64" data-entity-embed-display-settings="default" data-langcode="es" class="embedded-entity media image">  <div class="container-img">
+    
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2017/05/236646-cantidad-memoria-maxima-que-soporta-placa-base.jpg?itok=rB9C4B0Y 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2017/05/236646-cantidad-memoria-maxima-que-soporta-placa-base.jpg?itok=0HBP-Jey 2x"></source>
+              <source media="(min-width: 480px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/950/public/media/image/2017/05/236646-cantidad-memoria-maxima-que-soporta-placa-base.jpg?itok=YBX2dPAg 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2017/05/236646-cantidad-memoria-maxima-que-soporta-placa-base.jpg?itok=0HBP-Jey 2x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2017/05/236646-cantidad-memoria-maxima-que-soporta-placa-base.jpg?itok=8aq9qklJ 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2017/05/236646-cantidad-memoria-maxima-que-soporta-placa-base.jpg?itok=rB9C4B0Y 2x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2017/05/236646-cantidad-memoria-maxima-que-soporta-placa-base.jpg?itok=8aq9qklJ" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="624" height="352" alt="cantidad de memoria máxima que soporta la placa base " title="cantidad de memoria máxima que soporta la placa base " />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      </div>
+</div>
+
+<h2>¿Cuánta memoria RAM necesito en mi ordenador?</h2>
+<p>Como ya te hemos comentado, la cantidad necesaria la define el
+tipo de uso que vaya a tener ese equipo y, como norma general,
+<span class="bold">toda la memoria RAM adicional que instales solo
+servirá para encarecer la factura final</span> ya que probablemente
+nunca llegarás a usarla.</p>
+<div class="contain-table"><table border="1" cellpadding="1" cellspacing="1" class="tabla-datos">
+<thead>
+<tr>
+<th scope="row">Tipo de PC</th>
+<th scope="col">Usos habituales</th>
+<th scope="col">Memoria RAM recomendada (con Windows 10 de 64
+bits)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Equipo para ofimática</th>
+<td>Tareas de oficina, navegación, correo, redes sociales, ver
+vídeos en YouTube, etc.</td>
+<td><span class="bold">Máximo de 4GB</span>. La mayoría pueden
+funcionar perfectamente con 2 GB.</td>
+</tr>
+<tr>
+<th scope="row">Equipos gaming</th>
+<td>Jugar a videojuegos.</td>
+<td><span class="bold">Máximo 16 GB</span>. Para la gran mayoría de
+videojuegos actuales les sobra con 8 GB, pero cada vez exigen más
+requisitos.</td>
+</tr>
+<tr>
+<th scope="row">Equipos profesionales para edición de vídeo, foto,
+contenido 3D y diseño.</th>
+<td>Editar vídeo y foto de gran formato, renderizado de vídeo,
+texturas 3D, renderizado vectorial, AutoCAD, Maya uso de
+aplicaciones Adobe (Photoshop, After Effects, Premiere, etc.)</td>
+<td><span class="bold">Mínimo 16 GB</span>. En este caso el límite
+lo pone la placa base y los requisitos del programa. En este tipo
+de configuraciones, la RAM siempre es bienvenida.</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><a href="https://computerhoy.com/paso-a-paso/software/conoce-fondo-componentes-tu-ordenador-33087" title="Conoce a fondo los componentes de tu ordenador">Conoce a
+fondo los componentes de tu ordenador</a></p>
+</blockquote>
+<h2>Lo mejor es de dos en dos</h2>
+<p>Al <strong>elegir la memoria RAM que necesitas para tu
+PC</strong> debes tener en cuenta que, si la placa lo permite,
+siempre es mejor dividirla en dos módulos, algo que en el caso de
+los portátiles no siempre es posible.</p>
+<p>Es decir, si necesitas 8 GB, es mejor comprar dos módulos de 4
+GB idénticos, que uno solo de 8 GB ya que la placa base trabaja más
+fluido en una configuración de dos canales (Dual Channel) que con
+un solo canal.</p><div data-embed-button="media_embed" data-entity-embed-display="entity_reference:as_entity_reference_entity_view" data-entity-id="910129" data-entity-label="Media Embed" data-entity-type="media" data-entity-uuid="727d71f1-aa23-4d8a-9c91-8b910e601279" data-entity-embed-display-settings="default" data-langcode="es" class="embedded-entity media image">  <div class="container-img">
+    
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2017/05/236650-ampliar-memoria-ram-tu-ordenador.jpg?itok=dLDBNtxP 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2017/05/236650-ampliar-memoria-ram-tu-ordenador.jpg?itok=hxvlj2Fp 2x"></source>
+              <source media="(min-width: 480px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/950/public/media/image/2017/05/236650-ampliar-memoria-ram-tu-ordenador.jpg?itok=US9Ec2SI 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2017/05/236650-ampliar-memoria-ram-tu-ordenador.jpg?itok=hxvlj2Fp 2x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2017/05/236650-ampliar-memoria-ram-tu-ordenador.jpg?itok=K3jBoOs0 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2017/05/236650-ampliar-memoria-ram-tu-ordenador.jpg?itok=dLDBNtxP 2x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2017/05/236650-ampliar-memoria-ram-tu-ordenador.jpg?itok=K3jBoOs0" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="624" height="352" alt="Ampliar la memoria RAM de tu ordenador" title="Ampliar la memoria RAM de tu ordenador" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      </div>
+</div>
+
+<h2>PC Gaming, ¿cómo elegir la RAM adecuada?</h2>
+<p>Más allá de <strong>elegir la cantidad de memoria adecuada para
+tu ordenador</strong>, en los <strong>PC para gaming</strong> y en
+configuraciones de ordenadores profesionales para diseño, vídeo y
+fotografía, hay que tener muy en cuenta las características
+técnicas de la memoria RAM que se instala, para conseguir exprimir
+al máximo el rendimiento de los juegos y programas.</p><div id="roba_3" class="dfp-position roba_3" data-axel-springer-ads="true">
+</div>
+
+<p>Si antes de leer este artículo has mirado mínimamente los
+modelos de memoria RAM que hay disponibles, te habrás dado cuenta
+que, dentro del tipo de memoria compatible con tu equipo (DDR,
+DDR2, DDR3 o DDR4), existe una gran diferencia en sus precios.</p>
+<blockquote>
+<p><a href="https://computerhoy.com/noticias/hardware/todo-que-necesitas-saber-memoria-ram-37541" title="Memoria RAM">¿Quieres saberlo todo sobre cómo funciona la
+memoria RAM?</a></p>
+</blockquote>
+<p>Esto, independientemente de la estrategia comercial de cada
+marca o de la calidad de los componentes, es porque <span class="bold">no todos los módulos de memoria RAM son exactamente
+iguales</span>, aunque su aspecto externo sí pueda ser
+idéntico.</p>
+<p>Los chips integrados en los módulos de memoria RAM pueden
+funcionar a diferentes frecuencias y con diferentes latencias. Por
+lo que, junto a la <strong>cantidad de memoria RAM adecuada para tu
+PC gaming</strong>, tienes que tener en cuenta <strong>elegir la
+memoria RAM con mejor equilibrio entre frecuencia y
+latencia</strong>.</p>
+<p>Esto significa que, <span class="bold">para un equipo gaming, es
+mucho mejor montar 8 GB de una memoria RAM con mayor frecuencia y
+menor latencia</span>, que 16 GB con baja frecuencia y una latencia
+elevada. De ese modo, la memoria RAM ayudará a rascarle algunos
+frames por segundo más al rendimiento que ya ofrece el procesador y
+la tarjeta gráfica.</p>
+<p><a href="http://amzn.to/2pCgthR" rel="NoFollow" target="_blank"><div data-embed-button="media_embed" data-entity-embed-display="entity_reference:as_entity_reference_entity_view" data-entity-id="910130" data-entity-label="Media Embed" data-entity-type="media" data-entity-uuid="5c3a298c-7510-4164-9767-878a2bc3d04f" data-entity-embed-display-settings="default" data-langcode="es" class="embedded-entity media image">  <div class="container-img">
+    
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2017/05/236648-elegir-memoria-ram-mejor-equilibrio-frecuencia-latencia.jpg?itok=5ZcIcy8- 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2017/05/236648-elegir-memoria-ram-mejor-equilibrio-frecuencia-latencia.jpg?itok=iygShdxs 2x"></source>
+              <source media="(min-width: 480px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/950/public/media/image/2017/05/236648-elegir-memoria-ram-mejor-equilibrio-frecuencia-latencia.jpg?itok=wGqML49t 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2017/05/236648-elegir-memoria-ram-mejor-equilibrio-frecuencia-latencia.jpg?itok=iygShdxs 2x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2017/05/236648-elegir-memoria-ram-mejor-equilibrio-frecuencia-latencia.jpg?itok=JDVbblRO 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2017/05/236648-elegir-memoria-ram-mejor-equilibrio-frecuencia-latencia.jpg?itok=5ZcIcy8- 2x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2017/05/236648-elegir-memoria-ram-mejor-equilibrio-frecuencia-latencia.jpg?itok=JDVbblRO" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="624" height="352" alt="Elegir la memoria RAM con mejor equilibrio entre frecuencia y latencia" title="Elegir la memoria RAM con mejor equilibrio entre frecuencia y latencia" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      </div>
+</div>
+</a></p>
+<p>En las especificaciones técnicas de los módulos de memoria RAM
+encontrarás el indicador de la frecuencia expresado en megahercios
+(MHz). <span class="bold">A mayor número de megahercios, mayor es
+su velocidad.</span> En el caso de la latencia, este indicador
+viene dado por el número de ciclos de reloj que transcurre desde
+que se realiza la petición de datos y su ejecución y se expresan en
+la latencia CAS (CL) del módulo. <span class="bold">Cuanto menor
+sea el número que acompaña a las siglas CL, más rápida es la
+memoria RAM</span>.</p><div id="roba_4" class="dfp-position roba_4" data-axel-springer-ads="true">
+</div>
+
+<p>Antes de lanzarte a comprar cualquier componente para tu
+ordenador, debes asegurar de que es compatible con tu placa base y
+procesador. En el caso de la memoria RAM, conviene tener muy en
+cuenta la <strong>cantidad de memoria máxima que soporta la placa
+base</strong> y la frecuencia a la que puede funcionar la RAM. Todo
+ello sin olvidar que debe ser de un tipo compatible con los zócalos
+de memoria de la placa (DDR, DDR2, DDR3 o DDR4).</p>
+<blockquote>
+<p><a href="https://computerhoy.com/listas/hardware/5-razones-que-no-tirar-tu-viejo-ordenador-28927" title="5 razones por las que no tirar tu viejo ordenador">5 razones
+por las que no tirar tu viejo ordenador</a></p>
+</blockquote>
+<h2>Overclocking para tu memoria RAM</h2>
+<p>Una vez has elegido el tipo y <strong>cantidad de memoria RAM
+que necesitas para ordenador gaming</strong>, es posible que, para
+poder aprovechar al máximo sus prestaciones necesites configurarlo
+desde la BIOS (o UEFI) de tu PC.</p>
+<div data-embed-button="media_embed" data-entity-embed-display="entity_reference:as_entity_reference_entity_view" data-entity-id="814295" data-entity-label="Media Embed" data-entity-type="media" data-entity-uuid="8fba39da-f6a8-4bb0-a68d-78bb4c08e5ea" data-entity-embed-display-settings="default" data-langcode="es" class="embedded-entity media video">    
+            <div><div class="video-embed-field-provider-dailymotion-player video-embed-field-responsive-video"><div id="embed-dailymotion-k6Io854UFu2XAXlcSEM"></div>
+</div>
+</div>
+      
+</div>
+
+<p>En muchos casos, el módulo de memoria RAM lleva integrados unos
+perfiles de configuración llamados XMP que, al conectarlo a la
+placa, hacen los ajustes necesarios en la BIOS para
+<strong>conseguir que la memoria RAM funcione a la frecuencia que
+prometía el fabricante.</strong></p>
+<p>Si tu <strong>placa base o la memoria RAM no son compatibles con
+los perfiles XMP</strong>, y dependiendo de la arquitectura de
+procesador, tendrás que configurar algunos parámetros en la BIOS de
+tu ordenador para subir el factor de multiplicación del SPD (Serial
+Presence Detect) y conseguir que la memoria RAM funcione a la
+velocidad que promete el fabricante.</p>
+<blockquote>
+<p><a href="https://computerhoy.com/paso-a-paso/hardware/como-configurar-bios-tu-ordenador-17581" title="Cómo configurar la BIOS de tu ordenador">Cómo configurar la
+BIOS de tu ordenador</a></p>
+</blockquote>
+<div><div data-embed-button="media_embed" data-entity-embed-display="entity_reference:as_entity_reference_entity_view" data-entity-id="935725" data-entity-label="Media Embed" data-entity-type="media" data-entity-uuid="35cbbb9a-48aa-43c0-9438-6ff817da942d" data-entity-embed-display-settings="default" data-langcode="es" class="embedded-entity media gallery"><div class="gallery" data-gallery-remodal-id="modal_107">
+  <a href="#modal_107" title="Ver galería de Los mejores componentes para comprar un pc gamer por menos de 600 €" class="gallery-open-modal">  <div class="container-img">
+    
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2016/08/187830-mejor-configuracion-pc-gamer-menos-600-eu.jpg?itok=2Srucf1G 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/2400/public/media/image/2016/08/187830-mejor-configuracion-pc-gamer-menos-600-eu.jpg?itok=Z2klNsYS 2x"></source>
+              <source media="(min-width: 480px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/950/public/media/image/2016/08/187830-mejor-configuracion-pc-gamer-menos-600-eu.jpg?itok=rlB2D2W9 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1700/public/media/image/2016/08/187830-mejor-configuracion-pc-gamer-menos-600-eu.jpg?itok=Gaudy3dj 2x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187830-mejor-configuracion-pc-gamer-menos-600-eu.jpg?itok=OOInl22W 1x, https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2016/08/187830-mejor-configuracion-pc-gamer-menos-600-eu.jpg?itok=wDM2Gx0v 2x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187830-mejor-configuracion-pc-gamer-menos-600-eu.jpg?itok=OOInl22W" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="624" height="352" alt="La mejor configuración de pc gamer por menos de 600 €" title="La mejor configuración de pc gamer por menos de 600 €" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      </div>
+</a>
+  <div class="button-gallery">
+    <a href="#modal_107" title="Ver galería de Los mejores componentes para comprar un pc gamer por menos de 600 €" class="gallery-link gallery-open-modal">
+      <i class="icon icon-gallery"></i>
+      <div class="text">
+        <p class="text-gallery">Ver galería</p>
+        <p class="counter-gallery">9 imágenes</p>
+      </div>
+    </a>
+  </div>
+</div>
+<div class="remodal" id="gallery-modal_107" data-remodal-id="modal_107">
+  <div class="menu-gallery">
+    <div class="container-menu-gallery">
+      <div class="bar"></div>
+      <div class="group-icon-counter">
+        <i class="icon icon-gallery"></i>
+        <div class="title-gallery">
+          <h2>Los mejores componentes para comprar un pc gamer por menos de 600 €</h2>
+        </div>
+        <p class="counter-gallery">(9 imágenes)</p>
+      </div>
+      <i class="button-close" data-remodal-action="close"></i>
+    </div>
+  </div>
+  <div class="container-elements-gallery" id="container-elements-gallery">
+          <div class="element-gallery" data-item-gallery="0">  <div class="container-image">
+    <div class="image">
+      
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2016/08/187830-mejor-configuracion-pc-gamer-menos-600-eu.jpg?itok=wDM2Gx0v 1x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187830-mejor-configuracion-pc-gamer-menos-600-eu.jpg?itok=OOInl22W 1x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187830-mejor-configuracion-pc-gamer-menos-600-eu.jpg?itok=OOInl22W" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="624" height="352" alt="La mejor configuración de pc gamer por menos de 600 €" title="La mejor configuración de pc gamer por menos de 600 €" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      
+    </div>
+                                      </div>
+</div>
+                <div class="element-gallery" data-item-gallery="1">  <div class="container-image">
+    <div class="image">
+      
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2016/08/187844-chasis-pc-sharkoon-vg5-w-configuracion-pc-gamer-menos-600-eu.jpg?itok=TFJvLReg 1x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187844-chasis-pc-sharkoon-vg5-w-configuracion-pc-gamer-menos-600-eu.jpg?itok=SGciQskZ 1x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187844-chasis-pc-sharkoon-vg5-w-configuracion-pc-gamer-menos-600-eu.jpg?itok=SGciQskZ" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1280" height="720" alt="Chasis de pc Sharkoon VG5-W para la configuración de pc gamer por menos de 600 €" title="Chasis de pc Sharkoon VG5-W para la configuración de pc gamer por menos de 600 €" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      
+    </div>
+                                      </div>
+</div>
+                <div class="element-gallery" data-item-gallery="2">  <div class="container-image">
+    <div class="image">
+      
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2016/08/187834-fuente-alimentacion-evga-w1-500-w-configuracion-pc-gamer-menos-600-eu.jpg?itok=3uALxeH6 1x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187834-fuente-alimentacion-evga-w1-500-w-configuracion-pc-gamer-menos-600-eu.jpg?itok=-z_4qm_X 1x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187834-fuente-alimentacion-evga-w1-500-w-configuracion-pc-gamer-menos-600-eu.jpg?itok=-z_4qm_X" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1280" height="720" alt="Fuente de alimentación EVGA W1 500 W para la configuración de pc gamer por menos de 600 €" title="Fuente de alimentación EVGA W1 500 W para la configuración de pc gamer por menos de 600 €" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      
+    </div>
+                                      </div>
+</div>
+              <aside class="gallery-content-ad column">
+                    <div id="roba_galeria__1" class="dfp-position roba_galeria__1" data-axel-springer-ads="true" data-dfp-display="all">
+</div>
+
+        </aside>
+                <div class="element-gallery" data-item-gallery="3">  <div class="container-image">
+    <div class="image">
+      
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2016/08/187840-procesador-intel-core-i3-6100-configuracion-pc-gamer-menos-600-eu.jpg?itok=2MZTBdns 1x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187840-procesador-intel-core-i3-6100-configuracion-pc-gamer-menos-600-eu.jpg?itok=G6Rg883s 1x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187840-procesador-intel-core-i3-6100-configuracion-pc-gamer-menos-600-eu.jpg?itok=G6Rg883s" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1280" height="720" alt="Procesador Intel Core i3 6100 para la configuración de pc gamer por menos de 600 €" title="Procesador Intel Core i3 6100 para la configuración de pc gamer por menos de 600 €" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      
+    </div>
+                                      </div>
+</div>
+                <div class="element-gallery" data-item-gallery="4">  <div class="container-image">
+    <div class="image">
+      
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2016/08/187828-disipador-arctic-cooling-freezer-7-pro-configuracion-pc-gamer-menos-600-eu.jpg?itok=QSH0ZqTd 1x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187828-disipador-arctic-cooling-freezer-7-pro-configuracion-pc-gamer-menos-600-eu.jpg?itok=AQqBVh0p 1x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187828-disipador-arctic-cooling-freezer-7-pro-configuracion-pc-gamer-menos-600-eu.jpg?itok=AQqBVh0p" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1280" height="720" alt="Disipador Arctic Cooling Freezer 7 Pro para la configuración de pc gamer por menos de 600 €" title="Disipador Arctic Cooling Freezer 7 Pro para la configuración de pc gamer por menos de 600 €" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      
+    </div>
+                                      </div>
+</div>
+                <div class="element-gallery" data-item-gallery="5">  <div class="container-image">
+    <div class="image">
+      
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2016/08/187836-placa-base-gigabyte-h110-s2h-configuracion-pc-gamer-menos-600-eu.jpg?itok=0oCslb3F 1x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187836-placa-base-gigabyte-h110-s2h-configuracion-pc-gamer-menos-600-eu.jpg?itok=2JmnFR_R 1x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187836-placa-base-gigabyte-h110-s2h-configuracion-pc-gamer-menos-600-eu.jpg?itok=2JmnFR_R" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1280" height="720" alt="Placa base Gigabyte H110 S2H para la configuración de pc gamer por menos de 600 €" title="Placa base Gigabyte H110 S2H para la configuración de pc gamer por menos de 600 €" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      
+    </div>
+                                      </div>
+</div>
+              <aside class="gallery-content-ad column">
+                    <div id="roba_galeria__2" class="dfp-position roba_galeria__2" data-axel-springer-ads="true" data-dfp-display="all">
+</div>
+
+        </aside>
+                <div class="element-gallery" data-item-gallery="6">  <div class="container-image">
+    <div class="image">
+      
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2016/08/187838-memoria-ram-crucial-ballistix-tactical-ddr4-8-gb-configuracion-pc-gamer-menos-600-eu.jpg?itok=BT-erqPr 1x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187838-memoria-ram-crucial-ballistix-tactical-ddr4-8-gb-configuracion-pc-gamer-menos-600-eu.jpg?itok=_hxAyxPA 1x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187838-memoria-ram-crucial-ballistix-tactical-ddr4-8-gb-configuracion-pc-gamer-menos-600-eu.jpg?itok=_hxAyxPA" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1280" height="720" alt="Memoria Ram Crucial Ballistix Tactical DDR4 de 8 GB para la configuración de pc gamer por menos de 600 €" title="Memoria Ram Crucial Ballistix Tactical DDR4 de 8 GB para la configuración de pc gamer por menos de 600 €" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      
+    </div>
+                                      </div>
+</div>
+                <div class="element-gallery" data-item-gallery="7">  <div class="container-image">
+    <div class="image">
+      
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2016/08/187842-tarjeta-grafica-sapphire-rx-470-4-gb-configuracion-pc-gamer-menos-600-eu.jpg?itok=P5aR2FAD 1x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187842-tarjeta-grafica-sapphire-rx-470-4-gb-configuracion-pc-gamer-menos-600-eu.jpg?itok=XI8acK_I 1x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187842-tarjeta-grafica-sapphire-rx-470-4-gb-configuracion-pc-gamer-menos-600-eu.jpg?itok=XI8acK_I" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1280" height="720" alt="Tarjeta gráfica Sapphire RX 470 de 4 GB para la configuración de pc gamer por menos de 600 €" title="Tarjeta gráfica Sapphire RX 470 de 4 GB para la configuración de pc gamer por menos de 600 €" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      
+    </div>
+                                      </div>
+</div>
+                <div class="element-gallery" data-item-gallery="8">  <div class="container-image">
+    <div class="image">
+      
+  
+
+
+
+                    <div class="media media--blazy media--loading media--responsive media--image">
+        <picture>
+                  <source media="all and (min-width: 768px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/855/public/media/image/2016/08/187832-disco-duro-seagate-1-tb-configuracion-pc-gamer-menos-600-eu.jpg?itok=yl5krmkA 1x"></source>
+              <source media="(min-width: 0px)" type="image/jpeg" data-srcset="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187832-disco-duro-seagate-1-tb-configuracion-pc-gamer-menos-600-eu.jpg?itok=wiTtg39K 1x"></source>
+                  <img class="media__image media__element b-lazy b-responsive" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2016/08/187832-disco-duro-seagate-1-tb-configuracion-pc-gamer-menos-600-eu.jpg?itok=wiTtg39K" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="1280" height="720" alt="Disco duro Seagate 1 TB para la configuración de pc gamer por menos de 600 €" title="Disco duro Seagate 1 TB para la configuración de pc gamer por menos de 600 €" />
+
+  </picture>
+
+        
+      
+    </div>
+        
+  
+
+
+      
+    </div>
+                                      </div>
+</div>
+              <aside class="gallery-content-ad column">
+                    <div id="roba_galeria__3" class="dfp-position roba_galeria__3" data-axel-springer-ads="true" data-dfp-display="all">
+</div>
+
+        </aside>
+            </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+  </div>
+
+
+              
+                              <div class="block-more-news">
+                  
+                </div>
+              
+              
+              
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-md m-b-20">
+                
+
+                <div class="wrapper-disclaimer">
+                                        <aside data-nosnippet class="article-disclaimer">
+  <span>Descubre más sobre
+                    <a href="/redaccion/ruben-andres" rel="author"> Rubén Andrés</a>, autor/a de este artículo.
+              Conoce <a href="/como-trabajamos-ch">cómo trabajamos</a> en Computerhoy.</span>
+</aside>
+
+
+                                    <div class="block-tags">
+  <p>Etiquetas: </p>
+      <a href="/tags/componentes">#componentes</a>,       <a href="/tags/diseno">#diseño</a>,       <a href="/tags/juegos-0">#juegos</a>,       <a href="/tags/memoria">#Memoria</a>,       <a href="/tags/ofimatica">#ofimática</a>,       <a href="/tags/pc">#PC</a>,       <a href="/tags/ram">#RAM</a>  </div>
+
+                </div>
+
+                  
+<div class="views-element-container block-last-reviews">
+<h2 class="title-two red">Últimos análisis</h2>
+    <div class="js-view-dom-id-bcc5580051aed7fe7b0b29116d3832977ad7f1f8447ba6b9758c2575d6ec16b0">
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  <ul>
+
+          <li><article role="article" class="teaser-1col type-review main-element-image">
+  <div class="block-image">
+    <div class="score-max"><p>85</p></div>
+    <a href="/analisis/nubia-redmagic-7-review-opinion-1015695" rel="nofollow" title="Nubia RedMagic 7, análisis y opinión">
+          
+  
+
+
+
+                    <div class="media media--blazy media--loading media--image">
+      <img class="b-lazy media__image media__element" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/279x158/public/media/image/2022/02/analisis-redmagic-7-2625431.jpg?itok=DlyZYSNw" height="158" width="279" alt="análisis redmagic 7" title="análisis redmagic 7" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+
+        
+      
+    </div>
+        
+  
+
+
+
+  </a>
+
+  </div>
+  <h3>
+    <a href="/analisis/nubia-redmagic-7-review-opinion-1015695" title="Nubia RedMagic 7, análisis y opinión">Nubia RedMagic 7, análisis y opinión</a>
+  </h3>
+</article>
+</li>
+          <li><article role="article" class="teaser-1col type-review main-element-image">
+  <div class="block-image">
+    <div class="score-max"><p>88</p></div>
+    <a href="/analisis/gaming/msi-pulse-gl76-analisis-opinion-1011731" rel="nofollow" title="MSI Pulse GL76, análisis y opinión">
+          
+  
+
+
+
+                    <div class="media media--blazy media--loading media--image">
+      <img class="b-lazy media__image media__element" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/279x158/public/media/image/2022/02/analisis-msi-pulse-gl76-2615543.jpg?itok=oZ-LushC" height="158" width="279" alt="análisis MSI Pulse GL76" title="análisis MSI Pulse GL76" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+
+        
+      
+    </div>
+        
+  
+
+
+
+  </a>
+
+  </div>
+  <h3>
+    <a href="/analisis/gaming/msi-pulse-gl76-analisis-opinion-1011731" title="MSI Pulse GL76, análisis y opinión">MSI Pulse GL76, análisis y opinión</a>
+  </h3>
+</article>
+</li>
+          <li><article role="article" class="teaser-1col type-review main-element-image">
+  <div class="block-image">
+    <div class="score-max"><p>93</p></div>
+    <a href="/analisis/samsung-galaxy-s22-ultra-review-opinion-1014489" rel="nofollow" title="Samsung Galaxy S22 Ultra, análisis y opinión">
+          
+  
+
+
+
+                    <div class="media media--blazy media--loading media--image">
+      <img class="b-lazy media__image media__element" data-src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/279x158/public/media/image/2022/02/analisis-galaxy-s22-ultra-2620799.jpg?itok=eXYpbtvQ" height="158" width="279" alt="analisis Galaxy S22 Ultra" title="analisis Galaxy S22 Ultra" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+
+        
+      
+    </div>
+        
+  
+
+
+
+  </a>
+
+  </div>
+  <h3>
+    <a href="/analisis/samsung-galaxy-s22-ultra-review-opinion-1014489" title="Samsung Galaxy S22 Ultra, análisis y opinión">Samsung Galaxy S22 Ultra, análisis y opinión</a>
+  </h3>
+</article>
+</li>
+    
+  </ul>
+
+
+    
+
+  
+  
+
+  
+  
+</div>
+
+</div>
+
+
+
+                                  <div class="col-xs-12 col-sm m-b-40">
+                    <h2 class="title-two">Y además</h2>
+                      <div class="col-xs-12 col-sm m-b-40">
+    <div id="outbrain-block" class="OUTBRAIN" data-src="DROP_PERMALINK_HERE" data-widget-id="AR_1"></div>
+    <script type="text/javascript">
+    window.__tcfapi("addEventListener", 2, function(tcData, success) {
+        if (success && (tcData.eventStatus === "tcloaded" || tcData.eventStatus === "useractioncomplete")) {
+            if ((tcData.gdprApplies && tcData.vendor.consents[164]) || !tcData.gdprApplies) {
+                var outbrainBlock = document.getElementById("outbrain-block");
+                var script = document.createElement("script");
+                script.src = "//widgets.outbrain.com/outbrain.js";
+                script.async = true;
+                outbrainBlock.appendChild(script);
+            }
+
+            // remove the ourself to not get called more than once
+            window.__tcfapi("removeEventListener", 2, function(success) {
+                    if (success) {
+                        return;
+                    }
+                },tcData.listenerId,
+            );
+        }
+    });
+    </script>
+</div>
+
+
+                  </div>
+                              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-auto">
+            <aside class="column-right" data-sticky-container>
+              <div class="sticky roba-list" data-sticky data-margin-top="70">
+                <div id="roba_desktop" class="dfp-position roba_desktop" data-axel-springer-ads="true" data-dfp-display="desktop">
+</div>
+
+              </div>
+            </aside>
+          </div>
+        </div>
+    </div>
+  </div>
+</article>
+
+
+
+      </div>
+    
+      </div>    </main>
+    <div class="sky skyright">
+      <div id="sky_right" class="dfp-position sky_right" data-axel-springer-ads="true" data-dfp-display="all">
+</div>
+
+    </div>
+  </div>
+
+  
+
+
+    <div class="block-newsletter m-b-30">
+      <a href="/newsletter" title="Página de newsletter" rel="nofollow">
+  <img loading="lazy" src="/modules/components/newsletter/images/icon-newsletter.png" alt="Envelope symbol">
+  <p>Suscríbete a nuestra newsletter</p>
+</a>
+<div class="button-primary">
+  <a href="/newsletter" title="Página de newsletter">Suscribirse</a>
+</div>
+
+  </div>
+
+
+
+  <aside class="ad-sticky-catfish">
+    <div id="catfish" class="dfp-position catfish" data-axel-springer-ads="true" data-dfp-display="mobile">
+</div>
+
+    <button class="ad-sticky-close-button" aria-label="Close this ad"></button>
+  </aside>
+      <footer role="contentinfo">
+      <div id="patrocinio_1" class="dfp-position patrocinio_1" data-axel-springer-ads="true" data-dfp-display="all">
+</div>
+
+  
+  <footer>
+    <section class="footer-accordion">
+        <div class="footer-wrapper">
+            <nav class="expandable">
+                <a class="nav-title expander">Nuestra web</a>
+                <ul>
+                    <li><a href="/tecnologia">Tecnología</a></li>
+                    <li><a href="/entretenimiento">Entretenimiento</a></li>
+                    <li><a href="/gaming">Gaming</a></li>
+                    <li><a href="/life">Life</a></li>
+                    <li><a href="/motor">Motor</a></li>
+                    <li><a href="/industria">Industria</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/noticias">Noticias</a></li>
+                    <li><a href="/analisis">Análisis</a></li>
+                    <li><a href="/tutoriales">Tutoriales</a></li>
+                    <li><a href="/listas">Listas</a></li>
+                    <li><a href="/reportajes">Reportajes</a></li>
+                    <li><a href="/especiales">Especiales</a></li>
+                </ul>
+            </nav>
+            <nav class="expandable text-center">
+                <a class="nav-title expander">Fichas de Productos</a>
+                <ul>
+                    <li><a href="/fichas/moviles">Móviles</a></li>
+                </ul>
+                <ul>
+                    <li><a href="/fichas/tablets">Tablets</a></li>
+                </ul>
+            </nav>
+            <nav class="expandable text-center">
+                <a class="nav-title expander">Servicios</a>
+                <ul>
+                    <li><a href="https://buscar-coche.autobild.es/recomendador">Buscador de coches</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section class="footer-partners">
+        <div class="footer-wrapper">
+            <div class="row">
+                <nav class="col-xs-12 col-md-6">
+                <p class="footer-main-title">Partners</p>
+                <ul>
+                    <li><a href="http://sp.depositphotos.com/" rel="nofollow" target="_blank"><img src="/themes/computerhoy/img/deposit_logo.png" alt="Deposit Photos Partner" loading="lazy"></a></li>
+                </ul>
+            </nav>
+
+            <nav class="col-xs-12 col-md-6">
+                <p class="footer-main-title">Síguenos</p>
+                <ul>
+                    <li><a rel="nofollow" target="_blank" href="https://www.facebook.com/ComputerHoy" class="icon icon-facebook"></a></li>
+                    <li><a rel="nofollow" target="_blank" href="https://twitter.com/computerhoy" class="icon icon-twitter"></a></li>
+                    <li><a rel="nofollow" target="_blank" href="https://www.youtube.com/user/ComputerhoyTV" class="icon icon-head-youtube"></a></li>
+                    <li><a rel="nofollow" target="_blank" href="https://www.instagram.com/computerhoy/" class="icon icon-instagram"></a></li>
+                    <li><a rel="nofollow" target="_blank" href="/rss_all/all/rss.xml" class="icon icon-rss"></a></li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-axel">
+        <div class="footer-wrapper">
+            <p class="footer-main-title">Axel Springer España</p>
+            <nav>
+                <p class="nav-title">Tecnología</p>
+                <ul>
+                    <li><a href="https://computerhoy.com/">Computer Hoy</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <p class="nav-title">Motor</p>
+                <ul>
+                    <li><a href="https://www.autobild.es/" target="_blank">Autobild</a></li>
+                    <li><a href="https://www.topgear.es/" target="_blank">Top Gear</a></li>
+                </ul>
+            </nav>
+
+            <nav>
+                <p class="nav-title">Entretenimiento</p>
+                <ul>
+                    <li><a href="https://www.hobbyconsolas.com/" target="_blank">HobbyConsolas</a></li>
+                    <li><a href="http://www.nintenderos.com/" target="_blank">Nintenderos</a></li>
+                    <li><a href="http://www.eliteguias.com/" target="_blank">Eliteguías</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <p class="nav-title">Industria</p>
+                <ul>
+                    <li><a href="http://www.ticbeat.com/" target="_blank">TICBeat</a></li>
+                    <li><a href="https://www.hobbyconsolas.com/industria" target="_blank">Hobby Industria</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <p class="nav-title">Más</p>
+                <ul>
+                    <li><a href="https://www.businessinsider.es/" target="_blank">Business Insider España</a></li>
+                    <li><a href="http://store.axelspringer.es/" target="_blank">Store Axel Springer</a></li>
+                    <li><a href="https://ozio.axelspringer.es/" target="_blank">Ozio: El club del suscriptor</a></li>
+                    <li><a href="https://mediakit.axelspringer.es/" target="_blank">BrandLab Axel Springer</a></li>
+                    <li><a href="https://ozio.axelspringer.es/" target="_blank">Suscripciones</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="footer-ch">
+        <nav>
+            <a class="logo-ch" href="/" title="Ir a Portada de CH" rel="home">
+                <img src="/themes/computerhoy/img/logo-computerhoy.png" alt="computerhoy.com" loading="lazy" width="350" height="146">
+            </a>
+            <ul>
+                <li><a target="_blank" href="/quienes-somos-chn">Quiénes somos</a></li>
+                <li><a target="_blank" href="/condiciones-generales">Condiciones de uso</a></li>
+                <li><a target="_blank" href="/politica-privacidad-chn">Política de privacidad</a></li>
+                <li><a target="_blank" href="/politica-cookies-chn">Política de cookies</a></li>
+                <li><a rel="nofollow" href="javascript:window._sp_.loadPrivacyManagerModal(438828)">Configuración de cookies</a></li>
+                <li><a target="_blank" href="/politica-afiliacion-ch">Política de afiliación</a></li>
+                <li><a target="_blank" href="http://store.axelspringer.es/">Números anteriores</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="logo-axel-footer">
+        <a href="http://www.axelspringer.es" target="_blank">
+            <img src="/themes/computerhoy/img/logo-axel.svg" alt="Axel Springer" loading="lazy" width="" height="">
+        </a>
+    </div>
+</footer>
+
+
+
+    </footer>
+  
+</div>
+  </div>
+
+    
+    
+<!--[if lte IE 9]>
+<script src="/sites/computerhoy.com/local/assets/js/js_VhqXmo4azheUjYC30rijnR_Dddo0WjWkF27k5gTL8S4.js"></script>
+<![endif]-->
+<script src="/sites/computerhoy.com/local/assets/js/js_-PEwbHzM9KNCW32IPg0pRZrxbNf_CzHf01QjmosgoWY.js"></script>
+<script src="https://api.dmcdn.net/all.js"></script>
+<script src="/sites/computerhoy.com/local/assets/js/js_B52TU_weZFF6bOOaEdgC9QN5fuI-ynrFhc314hwCiYw.js"></script>
+<script src="https://geo.dailymotion.com/libs/player/x6prr.js"></script>
+<script src="/sites/computerhoy.com/local/assets/js/js_AiDxbH2isx8CHj3oXS05--J0EfFzdwl4HluMLCEwhHE.js"></script>
+
+    <!-- Begin comScore Tag -->
+    <script>
+      var _comscore = _comscore || [];
+      _comscore.push({ c1: "2", c2: "6034990", cs_ucfr: 1});
+      (function() {
+      var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+      s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/cs/6034990/beacon.js";
+      el.parentNode.insertBefore(s, el);
+      })();
+    </script>
+    <noscript>
+      <img src="http://b.scorecardresearch.com/p?c1=2&c2=6034990&cs_ucfr=0&cv=2.0&cj=1" />
+    </noscript>
+    <!-- End comScore Tag -->
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.eu01.nr-data.net","licenseKey":"e1ea0e896a","applicationID":"6096704","transactionName":"MhBSZQoZVhZSUU1eWAtacVIMEVcLHHZLQkcEGWxfFxxdOXBdV0NFChlcVAokdgpXV29eUhI2X18MClcJX1dLGgkTHFVG","queueTime":0,"applicationTime":527,"atts":"HldRE0IDRRg=","errorBeacon":"bam.eu01.nr-data.net","agent":""}</script></body>
+</html>

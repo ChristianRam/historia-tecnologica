@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="utf-8">
+<title>Cómo encender mi ordenador a una hora automáticamente</title> <meta name="description" content="Cómo encender mi ordenador a una hora automáticamente. ¿Cuánto tarda en encenderse y arrancar tu ordenador todas las mañanas? Seguro que muchas veces te has preguntado si no existe una..."> <meta name="robots" content="all">
+<meta name="ltm:project" content="uncomo">
+<meta name="ltm:domain" content="www.mundodeportivo.com/uncomo">
+<meta property="fb:app_id" content="511288732221094"/>
+<meta property="og:locale" content="es_ES"/>
+<meta property="og:site_name" content="www.mundodeportivo.com/uncomo"/>
+<meta property="og:url" content="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html"/>
+<meta property="twitter:site" content="@unComo"/>
+<meta property="og:title" content="Cómo encender mi ordenador a una hora automáticamente"/>
+<meta property="og:description" content="Cómo encender mi ordenador a una hora automáticamente. ¿Cuánto tarda en encenderse y arrancar tu ordenador todas las mañanas? Seguro que muchas veces te has preguntado si no existe una..."/>
+<meta property="og:image" content="https://t2.uc.ltmcdn.com/images/2/6/9/img_como_encender_mi_ordenador_a_una_hora_automaticamente_20962_600.jpg"/>
+<meta property="og:type" content="article"/>
+<meta property="twitter:card" content="summary_large_image"/>
+<meta property="article:published_time" content="2013-09-03T07:52:12Z" data-page-subject="true"/>
+<meta name="DC.date.issued" content="2013-09-03T07:52:12Z"/>
+<meta property="date" content="2017-01-20T11:47:46Z"/>
+<meta property="article:modified_time" content="2017-01-20T11:47:46Z"/>
+<link rel="canonical" href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html"/> <link rel="amphtml" href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html?amp=1"/>
+<meta name="idhub" content="23410">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#2872AA">
+<link href="https://static.uc.ltmcdn.com/css/css_uncomo_63.css" media="all" rel="stylesheet" type="text/css">
+<script>
+           window.__didomiVersion = 2;
+        </script>
+<script src="https://rsc.lavanguardia.com/js/godo-didomix-v1000632.js"></script>
+<script src="https://rsc.lavanguardia.com/js/godo-basex-v1000584.js"></script>
+<script src="https://static.lavanguardia.com/godo-adsx-v13.js" async></script>
+<script>
+           window.didomiOnReady = window.didomiOnReady || [];
+           var _comscore = _comscore || [];
+           var comscoreSrc = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+           window.didomiOnReady.push(function(Didomi){
+               _comscore.push({
+                   c1:"2",
+                   c2:"6398301",
+                   cs_ucfr: Didomi.getUserConsentStatusForVendor('c:comscore-jUFc9icY') === false ? "0" : "1"
+               });
+               gg.util.getScript(comscoreSrc,{async:true});
+           });
+        </script>
+<script>
+            gg.breakpoint.setBreakpoints({ xs: 0, md: 1024 }, true);
+
+            var godo = {};
+            godo.ads = [];
+
+            var adsCfg = {
+                                    unitname : "/55964524/md_w/uncomo/n",
+                    keys : {"cat": "story","id": "20962"},
+                    sequential : [ "roba", "mega" ]
+                            };
+            adsCfg.keys["environment"] = "pro";
+            adsCfg.keys["trackingId"] = gg.util.getTrackingId();
+            adsCfg.prebid = {
+                timeout : 2000,
+                bidders : {
+                    appnexus : { md: {}, sm: {}, xs: "sm" },
+                    criteo   : { md: {}, sm: {}, xs: "sm" },
+                    rubicon  : { slots: { md: [], sm: [], xs: [] } }
+                }
+            };
+            godo.ads.push(function(x) {
+                x.configure(null, adsCfg);
+                x.configure("disabledSlots", new Map([ [ "md", [] ], [ "xs", [] ] ]));
+                x.init();
+            });
+        </script>
+<script async src="https://cdn.insurads.com/bootstrap/EZ0KKFDB.js"></script>
+<script type="text/javascript">
+            function e(e){var t=!(arguments.length>1&&void 0!==arguments[1])||arguments[1],c=document.createElement("script");c.src=e,t?c.type="module":(c.async=!0,c.type="text/javascript",c.setAttribute("nomodule",""));var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(c,n)}function t(t,c,n){var a,o,r;null!==(a=t.marfeel)&&void 0!==a||(t.marfeel={}),null!==(o=(r=t.marfeel).cmd)&&void 0!==o||(r.cmd=[]),t.marfeel.config=n,t.marfeel.config.accountId=c;var i="https://sdk.mrf.io/statics";e("".concat(i,"/marfeel-sdk.js?id=").concat(c),!0),e("".concat(i,"/marfeel-sdk.es5.js?id=").concat(c),!1)}!function(e,c){var n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{};t(e,c,n)}(window,846,{} /*config*/);
+        </script>
+<script>
+                var dataLayer=[{
+                    "account":"UA-1457125-1",
+                        "company":"MD",
+                        "contentId":"20962",
+                        "publicationDate":"2013-09-03 09:52:12",
+                        "modificationDate":"2017-01-20 12:47:46",
+                        "daysPublished":"3095",
+                        "webType":"story",
+                        "pathUrlLevel1":"/tecnologia/",
+                        "sections":"/tecnologia/#/tecnologia/ordenadores/#",
+                        "authorName":"Ana Bulnes Fraga#",
+                        "path":"/tecnologia/articulo/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html",
+                        "facet":"web",
+                        "accessType":"abierto-libre",
+                        "fullAccess":"si",
+                        "environment":"pro"                }];
+                if (typeof adsCfg.keys['topics'] !== "undefined") {
+                    dataLayer.push({
+                        "topics" : adsCfg.keys['topics'].join('#')
+                    });
+                }
+                if (typeof localStorage.kxgodostrategies_user !== "undefined") {
+                    dataLayer.push({"kuid": localStorage.kxgodostrategies_user});
+                }
+                if (typeof localStorage.kxgodostrategies_kuid !== "undefined") {
+                    dataLayer.push({"dt_kuid": localStorage.kxgodostrategies_kuid});
+                }
+            </script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl+'&gtm_auth=z1_Gs0M9FbWziglf674IBQ&gtm_preview=env-1&gtm_cookies_win=x';f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KZBNS9');</script>
+<script>
+            function checkCmp(callback) {
+                                    callback();
+                            }
+        </script>
+</head>
+<body class="ctrl-post action-index ">
+<div class="container">
+<a name="top"></a>
+<div class="cerrar-menu"></div>
+<div class="menu" data-js-selector="menu">
+<div class="wrap-menu max_width clearfix" data-js-selector="status">
+<div class="descubre">
+<div class="table">
+<div class="centrar">Descubre</div>
+</div>
+</div>
+<div class="lista_menu">
+<div class="clear">
+<a class="ga" data-category="Header" data-event="Go to hub" data-label="23414" href="https://www.mundodeportivo.com/uncomo/animales/"><div class="hubicon hubicon--menu hubicon--animales"></div>Animales</a>
+<a class="ga" data-category="Header" data-event="Go to hub" data-label="23409" href="https://www.mundodeportivo.com/uncomo/artes/"><div class="hubicon hubicon--menu hubicon--artes"></div>Artes y manualidades</a>
+<a class="ga" data-category="Header" data-event="Go to hub" data-label="23401" href="https://www.mundodeportivo.com/uncomo/belleza/"><div class="hubicon hubicon--menu hubicon--belleza"></div>Belleza</a>
+<a class="ga" data-category="Header" data-event="Go to hub" data-label="23404" href="https://www.mundodeportivo.com/uncomo/comida/"><div class="hubicon hubicon--menu hubicon--comida"></div>Comida</a>
+<a class="ga" data-category="Header" data-event="Go to hub" data-label="23405" href="https://www.mundodeportivo.com/uncomo/deporte/"><div class="hubicon hubicon--menu hubicon--deporte"></div>Deporte</a>
+<a class="ga" data-category="Header" data-event="Go to hub" data-label="23402" href="https://www.mundodeportivo.com/uncomo/educacion/"><div class="hubicon hubicon--menu hubicon--educacion"></div>Educación</a>
+<a class="ga" data-category="Header" data-event="Go to hub" data-label="23399" href="https://www.mundodeportivo.com/uncomo/fiesta/"><div class="hubicon hubicon--menu hubicon--fiesta"></div>Fiesta</a>
+<a class="ga" data-category="Header" data-event="Go to hub" data-label="23407" href="https://www.mundodeportivo.com/uncomo/hogar/"><div class="hubicon hubicon--menu hubicon--hogar"></div>Hogar</a>
+<a class="ga" data-category="Header" data-event="Go to hub" data-label="23400" href="https://www.mundodeportivo.com/uncomo/motor/"><div class="hubicon hubicon--menu hubicon--motor"></div>Motor</a>
+<a class="ga" data-category="Header" data-event="Go to hub" data-label="23413" href="https://www.mundodeportivo.com/uncomo/negocios/"><div class="hubicon hubicon--menu hubicon--negocios"></div>Negocios</a>
+<a class="ga" data-category="Header" data-event="Go to hub" data-label="23408" href="https://www.mundodeportivo.com/uncomo/ocio/"><div class="hubicon hubicon--menu hubicon--ocio"></div>Ocio</a>
+<a class="ga" data-category="Header" data-event="Go to hub" data-label="23412" href="https://www.mundodeportivo.com/uncomo/relaciones/"><div class="hubicon hubicon--menu hubicon--relaciones"></div>Relaciones</a>
+<a class="ga" data-category="Header" data-event="Go to hub" data-label="23416" href="https://www.mundodeportivo.com/uncomo/salud/"><div class="hubicon hubicon--menu hubicon--salud"></div>Salud</a>
+<a class="ga actual" data-category="Header" data-event="Go to hub" data-label="23410" href="https://www.mundodeportivo.com/uncomo/tecnologia/"><div class="hubicon hubicon--menu hubicon--tecnologia"></div>Tecnología</a>
+</div>
+</div>
+</div> </div>
+<div class="main-content">
+<header>
+<div class="max_width align-center">
+<img class="hamburguesa" alt="menu" data-js-selector="menu-boton" onclick="$('.container').toggleClass('menu-abierto'); if($('.container').hasClass('menu-abierto')) GAevent('Header','Display menu');" src="https://static.uc.ltmcdn.com/img/web/menu.png" width="30" height="20">
+<a class="logo-default" href="https://www.mundodeportivo.com/uncomo"><img src="https://static.uc.ltmcdn.com/img/web/uncomo/logo/negativo/es.png" alt="unCOMO" class="logo ga" data-category="Header" data-event="go to home" width=128 height=30></a>
+<div class="open-compartir" data-js-selector="open-compartir">Compartir</div>
+<form id="buscador" class="search-form" action="https://www.mundodeportivo.com/uncomo/busqueda" method="GET" onsubmit="if ($('#q').val().length < 3) { alert('Con tan poquito no podemos saber lo que quieres, haz una búsqueda más larga.'); $('#q').focus(); GAevent('Header', 'short search', $('#q').val()); return false; } else { GAevent('Header', 'search', $('#q').val()) }">
+<fieldset>
+<input name="q" id="q" data-js-selector="q" class="input text search" placeholder="¿Qué estás buscando?"><button type="button" class="button search" onclick="if($('#q').val() == '' || $('#q').val() == $('#q').data('q')){$('#q').focus()} else {$('#buscador').submit();}"><img src="https://static.uc.ltmcdn.com/img/web/lupa.png" width="17" height="20" alt="lupa"><span>Buscar</span></button>
+</fieldset>
+</form>
+</div>
+</header>
+<div class="compartir share-off" data-js-selector="compartir">
+<div class="max_width">
+<span>Compartir en: </span><a href="http://www.facebook.com/sharer.php?u=https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html" class="social-icon facebook ga" rel="nofollow" data-js-selector="launch_popup" data-category="Post" data-event="share" data-label="facebook"></a><a href="http://twitter.com/share?original_referer=https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html&amp;text=Cómo encender mi ordenador a una hora automáticamente&amp;url=https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html&amp;via=unComo" class="social-icon twitter ga" rel="nofollow" data-js-selector="launch_popup" data-category="Post" data-event="share" data-label="twitter"></a><a href="http://pinterest.com/pin/create/button/?url=https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html&amp;media=https://t2.uc.ltmcdn.com/images/2/6/9/img_como_encender_mi_ordenador_a_una_hora_automaticamente_20962_600.jpg" class="social-icon pinterest ga" rel="nofollow" data-js-selector="launch_popup" data-category="Post" data-event="share" data-label="pinterest" data-pin-custom="true"></a><a href="https://wa.me/?text=Cómo encender mi ordenador a una hora automáticamente - https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html" class="social-icon whatsapp ga" rel="nofollow" data-js-selector="launch_popup" data-category="Post" data-event="share" data-label="whatsapp"></a><a href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html?print=1" class="social-icon imprimir ga" rel="nofollow" data-js-selector="launch_popup" data-category="Post" data-event="share" data-label="imprimir"></a><a href="https://www.mundodeportivo.com/uncomo/ajax/download/id_post/20962" class="social-icon descargar ga" rel="nofollow" data-js-selector="launch_popup" data-category="Post" data-event="share" data-label="descargar"></a>	</div>
+</div>
+<div class="header-gap">
+<ul class="breadcrumb">
+<li><a href="https://www.mundodeportivo.com/uncomo"><span>unCOMO</span></a></li>
+<li><a href="https://www.mundodeportivo.com/uncomo/tecnologia/"><span>Tecnología</span></a></li>
+<li><a href="https://www.mundodeportivo.com/uncomo/tecnologia/ordenadores/"><span>Ordenadores</span></a></li>
+<li><a href="https://www.mundodeportivo.com/uncomo/tecnologia/configurar-y-utilizar-un-equipo/"><span>Configurar y utilizar un equipo</span></a></li>
+<li><a href="https://www.mundodeportivo.com/uncomo/tecnologia/encender-un-pc/"><span>Encender un PC</span></a></li>
+<li>Cómo encender mi ordenador a una hora automáticamente</li>
+</ul>
+<article class="columna-post">
+<h1 class="titulo titulo--articulo">Cómo encender mi ordenador a una hora automáticamente</h1>
+<div class="info_articulo ">
+<div class="daticos">
+<a href="#comentarios" class="datico">
+<div class="stars">
+<div class="total">
+<div class="valoracion" style="width: 86.00%"></div>
+</div>
+</div>
+<span class="votos">
+Valoración: 4,3 (143 votos)	</span>
+</a>
+<a href="#comentarios" class="datico">4 comentarios</a>
+<div class="datico nbsp">&nbsp;</div> </div>
+<div class="autor">
+<a rel="nofollow" class="img_autor ga" data-category="Post" data-event="go to autor" data-label="https://www.mundodeportivo.com/uncomo/autor/ana-bulnes-fraga-243.html" href="https://www.mundodeportivo.com/uncomo/autor/ana-bulnes-fraga-243.html"><img height="50" width="50" src="https://t2.uc.ltmcdn.com/fotos/3/4/2/img_243_50_square.jpg"></a>
+<div class="nombre_autor">
+Por <a rel="nofollow" class="ga" data-category="Post" data-event="go to autor" data-label="https://www.mundodeportivo.com/uncomo/autor/ana-bulnes-fraga-243.html" href="https://www.mundodeportivo.com/uncomo/autor/ana-bulnes-fraga-243.html">Ana Bulnes Fraga</a>. <span class="date_publish">Actualizado: 20 enero 2017</span> </div>
+</div>
+</div>
+<div>
+<div class="intro">
+<div class="imagen_wrap ">
+<div class="imagen lupa" data-js-selector="imagen" data-posicion="0">
+<img src="https://t2.uc.ltmcdn.com/images/2/6/9/img_como_encender_mi_ordenador_a_una_hora_automaticamente_20962_600.jpg" alt="Cómo encender mi ordenador a una hora automáticamente" width="500" height="405">
+<div class="imagen_caption">Imagen: ordenadores-y-portatiles.com </div>
+</div>
+</div>
+<p>&iquest;Cu&aacute;nto tarda en encenderse y <a href="https://uncomo.mundodeportivo.com/tecnologia/video/como-conseguir-que-mi-mac-encienda-mas-rapido-3309.html">arrancar</a> tu ordenador todas las ma&ntilde;anas? Seguro que muchas veces te has preguntado si no existe una especie de control remoto que te permita <strong>encenderlo a distancia</strong>, de forma que cuando llegues al trabajo est&eacute; ya listo para empezar el d&iacute;a. &iexcl;Esta posibilidad existe! Puedes programar el ordenador para que se encienda solo a determinada hora, &iquest;c&oacute;mo? En unComo.com te contamos<strong> c&oacute;mo encender tu ordenador a una hora autom&aacute;ticamente.</strong></p>
+</div>
+<div class="recomendado-incrustado">
+<div class="texto">También te puede interesar: <a class="ga" data-category="Post" data-event="related incrustado" href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-tener-protegido-mi-ordenador-30629.html">Cómo tener protegido mi ordenador</a>
+</div>
+</div>
+<div class="publibydfp ad mobile breakpoint_1"><ins data-ad-type='roba' data-ad-device='xs' data-ad-sizes='[[300, 250]]' data-ad-lazy='false' data-ad-keys='{}'></ins>
+</div>
+<div class="publibydfp ad breakpoint_1-5 breakpoint_2 breakpoint_2-5 breakpoint_3 breakpoint_4"><ins data-ad-type='roba' data-ad-device='md' data-ad-sizes='[[336, 280],[300, 250],[480, 320]]' data-ad-lazy='false' data-ad-keys='{}'></ins>
+</div>
+<div class="titulo titulo--h3">Pasos a seguir:</div>
+<div class="apartado" id="anchor_0">
+<div class="orden">1</div>
+<p>Apaga o reinicia el ordenador y, cuando se est&eacute; cargando y diga "<strong>Press DEL or F1 to enter SETUP</strong>", pulsa la tecla Supr.</p>
+</div>
+<div class="apartado" id="anchor_1">
+<div class="orden">2</div>
+<p>Entrar&aacute;s en el programa de <strong>SETUP</strong> de tu ordenador, fuera de Windows. Aqu&iacute;, movi&eacute;ndote con las flechas, entra en la pesta&ntilde;a Power.</p>
+</div>
+<div class="apartado" id="anchor_2">
+<div class="orden">3</div>
+<p>Una de las opciones de esta pantalla es <strong>"Power Up Control"</strong>. Selecci&oacute;nalo con las flechas y pulsa enter para aceptar.</p>
+</div>
+<div class="apartado" id="anchor_3">
+<div class="orden">4</div>
+<p>En la nueva pantalla, ve a Automatic Power Up y escoge la opci&oacute;n que m&aacute;s te convenga. Por ejemplo, si quieres que el ordenador se encienda todos los d&iacute;as a la misma hora, escoge "<strong>Everyday</strong>".</p>
+</div>
+<div class="publibydfp ad mobile breakpoint_1"><ins data-ad-type='roba' data-ad-device='xs' data-ad-sizes='[[300, 250],[300,600]]' data-ad-lazy='false' data-ad-keys='{}'></ins>
+</div>
+<div class="publibydfp ad breakpoint_1-5 breakpoint_2 breakpoint_2-5 breakpoint_3 breakpoint_4"><ins data-ad-type='roba' data-ad-device='md' data-ad-sizes='[[336, 280],[300, 250],[480, 320]]' data-ad-lazy='false' data-ad-keys='{}'></ins>
+</div>
+<div class="apartado" id="anchor_4">
+<div class="orden">5</div>
+<p>En Time Alarm, selecciona la hora a la que quieres que se encienda el ordenador todos los d&iacute;as. Cuando est&eacute; lista, acepta pulsando Esc. Acepta los cambios.</p>
+</div>
+<div class="apartado" id="anchor_5">
+<div class="orden">6</div>
+<p>El ordenador se reiniciar&aacute; de forma autom&aacute;tica. Ap&aacute;galo por la noche y a la ma&ntilde;ana siguiente se encender&aacute; justo a la hora programada.</p>
+</div>
+<div class="apartado">
+<p>Si deseas leer más artículos parecidos a <strong>Cómo encender mi ordenador a una hora automáticamente</strong>, te recomendamos que entres en nuestra categoría de <a href="https://www.mundodeportivo.com/uncomo/tecnologia/ordenadores/" class="ga" data-category="Post" data-event="categoria ultimo paso">Ordenadores</a>.</p>
+</div>
+<div class="OUTBRAIN" data-src="DROP_PERMALINK_HERE" data-widget-id="AR_5"></div>
+<script type="text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script>
+</div>
+</article>
+<aside>
+<div class="relacionados" data-js-selector="related-aside">
+<div class="bloquegroup clear padding-left-1">
+<div class="bloque link">
+<div class="position-imagen">
+<div class="stars">
+<div class="total">
+<div class="valoracion" style="width: 64.40%"></div>
+</div>
+</div>
+<img data-pin-nopin="true" alt="Por qué no puedo descargar programas en mi ordenador" class="imagen" src="https://t2.uc.ltmcdn.com/images/5/0/4/img_por_que_no_puedo_descargar_programas_en_mi_ordenador_27405_300_150.jpg" width="300" height="150">
+</div>
+<a href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/por-que-no-puedo-descargar-programas-en-mi-ordenador-27405.html" class="titulo titulo--bloque">Por qué no puedo descargar programas en mi ordenador</a>
+</div>
+<div class="bloque link">
+<div class="position-imagen">
+<div class="stars">
+<div class="total">
+<div class="valoracion" style="width: 71.00%"></div>
+</div>
+</div>
+<img data-pin-nopin="true" alt="Cómo saber las carpetas que ocupan más espacio en mi ordenador" class="imagen" src="https://t2.uc.ltmcdn.com/images/1/3/4/img_como_saber_las_carpetas_que_ocupan_mas_espacio_en_mi_ordenador_25431_300_150.jpg" width="300" height="150">
+</div>
+<a href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-saber-las-carpetas-que-ocupan-mas-espacio-en-mi-ordenador-25431.html" class="titulo titulo--bloque">Cómo saber las carpetas que ocupan más espacio en mi ordenador</a>
+</div>
+<div class="bloque link">
+<div class="position-imagen">
+<div class="stars">
+<div class="total">
+<div class="valoracion" style="width: 64.00%"></div>
+</div>
+</div>
+<img data-pin-nopin="true" alt="Cómo conocer mi dirección IP" class="imagen" src="https://t1.uc.ltmcdn.com/images/8/1/1/como_conocer_mi_direccion_ip_5118_300_150.jpg" width="300" height="150">
+</div>
+<a href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-conocer-mi-direccion-ip-5118.html" class="titulo titulo--bloque">Cómo conocer mi dirección IP</a>
+</div>
+<div class="bloque link">
+<div class="position-imagen">
+<div class="stars">
+<div class="total">
+<div class="valoracion" style="width: 49.80%"></div>
+</div>
+</div>
+<img data-pin-nopin="true" alt="Cómo cambiar mi IP pública" class="imagen" src="https://t1.uc.ltmcdn.com/images/9/8/3/img_como_cambiar_mi_ip_publica_19389_300_150.jpg" width="300" height="150">
+</div>
+<a href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-cambiar-mi-ip-publica-19389.html" class="titulo titulo--bloque">Cómo cambiar mi IP pública</a>
+</div>
+</div>
+</div>
+<div class="tags" data-js-selector="top-views">
+<div class="titulo titulo--linea"><div class="pastilla">Lo más visto</div></div>
+<div class="topview"><div>1.</div><a class="ga" data-category="Post" data-event="topviews" data-vars-event-label="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/nombres-para-grupos-de-whatsapp-49053.html" href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/nombres-para-grupos-de-whatsapp-49053.html">Nombres para grupos de Whatsapp</a></div><div class="topview"><div>2.</div><a class="ga" data-category="Post" data-event="topviews" data-vars-event-label="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/nombres-para-instagram-50274.html" href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/nombres-para-instagram-50274.html">Nombres para Instagram</a></div><div class="topview"><div>3.</div><a class="ga" data-category="Post" data-event="topviews" data-vars-event-label="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/preguntas-para-instagram-stories-las-100-mejores-ideas-48335.html" href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/preguntas-para-instagram-stories-las-100-mejores-ideas-48335.html">Preguntas para Instagram Stories - las 100 mejores ideas</a></div><div class="topview"><div>4.</div><a class="ga" data-category="Post" data-event="topviews" data-vars-event-label="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/cual-es-mas-grande-kb-o-mb-29620.html" href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/cual-es-mas-grande-kb-o-mb-29620.html">Cuál es más grande kB o MB</a></div><div class="topview"><div>5.</div><a class="ga" data-category="Post" data-event="topviews" data-vars-event-label="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-escribir-acentos-con-el-teclado-vocales-con-acento-windows-45293.html" href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-escribir-acentos-con-el-teclado-vocales-con-acento-windows-45293.html">Cómo escribir acentos con el teclado, vocales con acento - Windows</a></div><div class="topview"><div>6.</div><a class="ga" data-category="Post" data-event="topviews" data-vars-event-label="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-saber-quien-visita-mi-perfil-de-facebook-4791.html" href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-saber-quien-visita-mi-perfil-de-facebook-4791.html">Cómo saber quién visita mi perfil de Facebook</a></div><div class="topview"><div>7.</div><a class="ga" data-category="Post" data-event="topviews" data-vars-event-label="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-localizar-a-una-persona-a-traves-del-movil-47899.html" href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-localizar-a-una-persona-a-traves-del-movil-47899.html">Cómo localizar a una persona a través del móvil</a></div><div class="topview"><div>8.</div><a class="ga" data-category="Post" data-event="topviews" data-vars-event-label="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-recuperar-mensajes-borrados-de-whatsapp-sin-desinstalarlo-50047.html" href="https://www.mundodeportivo.com/uncomo/tecnologia/articulo/como-recuperar-mensajes-borrados-de-whatsapp-sin-desinstalarlo-50047.html">Cómo recuperar mensajes borrados de Whatsapp sin desinstalarlo</a></div></div>
+<div data-js-selector="pegajoso" class="publibydfp ad breakpoint_2 breakpoint_2-5 breakpoint_3 breakpoint_4"><ins data-ad-type='roba' data-ad-device='md' data-ad-sizes='[[300, 600],[300, 250]]' data-ad-lazy='false' data-ad-keys='{}'></ins>
+</div>
+</aside>
+<div class="columna-post">
+<div class="comentarios" id="comentarios">
+<h2 class="titulo titulo--linea sin-margin-lateral"><div class="pastilla"> Escribir comentario </div></h2>
+<div>
+<form method="post" class="formulario" data-js-selector="formulario-comentario" data-id-respuesta="-1">
+<input type="hidden" name="id_post" data-js-selector="id_post" value="20962">
+<input type="hidden" name="id_respuesta" value="-1">
+<input type="hidden" name="id_categoria" value="6927">
+<div data-js-selector="comentario-nombre-mail">
+<div class="columna izquierda">
+<div class="position-relative">
+<div class="error" data-js-selector="error-nombre"></div>
+<input type="text" class="input" name="nombre" placeholder="Nombre">
+</div>
+</div><div class="columna derecha">
+<div class="position-relative">
+<div class="error" data-js-selector="error-email"></div>
+<input type="email" class="input" name="email" placeholder="Correo electrónico (no se publicará)">
+</div>
+</div>
+</div>
+<div class="position-relative">
+<div class="error" data-js-selector="error-comentario"></div>
+<textarea name="comentario" placeholder="Comentario o pregunta"></textarea>
+</div>
+<div class="rating">
+<div class="selector--starts">
+<input type="radio" name="rating" id="valoracion-null" class="valoracion" value="0" checked="checked"><label for="valoracion-null" style="display:none;"></label>
+<input type="radio" name="rating" id="valoracion-1" class="valoracion" value="1" onclick="$('#texto-valoracion').html($(this).data('texto'));" data-texto="No es útil"><label for="valoracion-1"></label>
+<input type="radio" name="rating" id="valoracion-2" class="valoracion" value="2" onclick="$('#texto-valoracion').html($(this).data('texto'));" data-texto="Más o menos"><label for="valoracion-2"></label>
+<input type="radio" name="rating" id="valoracion-3" class="valoracion" value="3" onclick="$('#texto-valoracion').html($(this).data('texto'));" data-texto="Normal"><label for="valoracion-3"></label>
+<input type="radio" name="rating" id="valoracion-4" class="valoracion" value="4" onclick="$('#texto-valoracion').html($(this).data('texto'));" data-texto="Útil"><label for="valoracion-4"></label>
+<input type="radio" name="rating" id="valoracion-5" class="valoracion" value="5" onclick="$('#texto-valoracion').html($(this).data('texto'));" data-texto="Muy útil"><label for="valoracion-5"></label>
+</div>
+<label class="label">Tu valoración:</label><span class="texto" id="texto-valoracion">
+¿Qué te ha parecido el artículo? </span>
+</div>
+<button type="button" data-js-selector="enviar_comentario" class="boton m" data-id-respuesta="-1">Enviar comentario</button>
+<input name="politica" id="politica_-1" type="checkbox"><label for="politica_-1">He leído y acepto la <a href="https://www.mundodeportivo.com/uncomo/index/politicadeprivacidad" rel="nofollow" data-js-selector="launch_popup">política de privacidad</a>
+</label>
+<label class="legal">Red Link To Media recopila los datos personales solo para uso interno. En ningún caso, tus datos serán transferidos a terceros sin tu autorización.<br>De acuerdo con la ley del 8 de diciembre de 1992, puedes acceder a la base de datos que contiene tus datos personales y modificar esta información en cualquier momento, poniéndote en contacto con Red Link To Media SL (<a href="mailto:info@linktomedia.net">info@linktomedia.net</a>)</label>
+</form>
+</div>
+<div class="titulo titulo--linea sin-margin-lateral"><div class="pastilla">4 comentarios</div></div>
+<div data-js-selector="append-comentarios">
+<div class="comentario" data-id-comment="189843">
+<a id="responder-189843"></a>
+<div class="imagen">
+</div>
+<div class="nombre">Sergio Peñaflor</div>
+<time class="fecha">26/09/2017</time>
+<div class="texto">
+El Bios no me da la opción de Everyday, al cambiar los días solo me da números.
+</div>
+<div class="acciones">
+<div style="float:left;">
+<button type="button" class="boton xs" data-js-selector="responder" data-id-respuesta="189843">Responder</button>	</div>
+<div style="float:right;">
+<button type="button" class="pulgar" data-js-selector="karma-positivo" data-id-comment="189843">0</button>
+<button type="button" class="pulgar" data-js-selector="karma-negativo" data-id-comment="189843">0</button>
+</div>
+</div>
+<div class="form-respuesta desplegable" data-js-selector="form-respuesta" data-id-respuesta="189843"></div>
+</div> <div class="comentario" data-id-comment="121059">
+<a id="responder-121059"></a>
+<div class="imagen">
+</div>
+<div class="nombre">Jonthny</div>
+<time class="fecha">10/12/2015</time>
+<div class="texto">
+También lo puede encender remotamente desde el SmartPhone, teniendo activado Wake On Lan, en el BIOS del computador o en las propiedades del adaptador de red. En Android existen varias aplicaciones para Wake On Lan, Yo uso Fing.
+</div>
+<div class="acciones">
+<div style="float:left;">
+<button type="button" class="boton xs" data-js-selector="responder" data-id-respuesta="121059">Responder</button>	</div>
+<div style="float:right;">
+<button type="button" class="pulgar" data-js-selector="karma-positivo" data-id-comment="121059">0</button>
+<button type="button" class="pulgar" data-js-selector="karma-negativo" data-id-comment="121059">0</button>
+</div>
+</div>
+<div class="form-respuesta desplegable" data-js-selector="form-respuesta" data-id-respuesta="121059"></div>
+</div> <div class="comentario" data-id-comment="94147">
+<a id="responder-94147"></a>
+<div class="imagen">
+</div>
+<div class="nombre">Barlen Calderón</div>
+<time class="fecha">20/05/2015</time>
+<div class="texto">
+Estimados de tecnologia.uncomo.com:
+en ningún momento se indica que marcas, modelos de pc o laptop y que fabricantes de BIOS se puede encontrar la configuración que presentan ustedes.
+Saludos cordiales.
+</div>
+<div class="acciones">
+<div style="float:left;">
+<button type="button" class="boton xs" data-js-selector="responder" data-id-respuesta="94147">Responder</button>	</div>
+<div style="float:right;">
+<button type="button" class="pulgar" data-js-selector="karma-positivo" data-id-comment="94147">5</button>
+<button type="button" class="pulgar" data-js-selector="karma-negativo" data-id-comment="94147">0</button>
+</div>
+</div>
+<div class="form-respuesta desplegable" data-js-selector="form-respuesta" data-id-respuesta="94147"></div>
+</div> <div class="comentario" data-id-comment="67186">
+<a id="responder-67186"></a>
+<div class="imagen">
+</div>
+<div class="nombre">pablo</div>
+<time class="fecha">16/09/2014</time>
+<div class="texto">
+mi bios NO tiene la ninguna opcion Power, ni parecida...
+</div>
+<div class="acciones">
+<div style="float:left;">
+<button type="button" class="boton xs" onclick="$('[data-id-comment=\'67186\'] .respuestas').toggleClass('active'); GAevent('Post', 'ver respuestas'); setTimeout(function(){ reloadSticky() ;}, 500);">
+Ver <strong>1</strong> respuesta	</button>
+<button type="button" class="boton xs" data-js-selector="responder" data-id-respuesta="67186">Responder</button>	</div>
+<div style="float:right;">
+<button type="button" class="pulgar" data-js-selector="karma-positivo" data-id-comment="67186">6</button>
+<button type="button" class="pulgar" data-js-selector="karma-negativo" data-id-comment="67186">0</button>
+</div>
+</div>
+<div class="form-respuesta desplegable" data-js-selector="form-respuesta" data-id-respuesta="67186"></div>
+<div class="respuestas desplegable" data-js-selector="respuestas" data-id-respuesta="67186">
+<div class="comentario" data-id-comment="278482">
+<a id="responder-278482"></a>
+<div class="imagen">
+</div>
+<div class="nombre">Deadpool</div>
+<time class="fecha">09/02/2021</time>
+<div class="texto">
+actualiza tu bios desde la pagina del fabricante
+</div>
+<div class="acciones">
+<div style="float:left;">
+</div>
+<div style="float:right;">
+<button type="button" class="pulgar" data-js-selector="karma-positivo" data-id-comment="278482">0</button>
+<button type="button" class="pulgar" data-js-selector="karma-negativo" data-id-comment="278482">0</button>
+</div>
+</div>
+<div class="form-respuesta desplegable" data-js-selector="form-respuesta" data-id-respuesta="278482"></div>
+</div>	</div>
+</div> </div>
+</div>
+<hr>
+<div data-js-selector="relacionados" class="relacionados"></div>
+<div class="spinner" data-js-selector="loading-relacionados" hidden="hidden">
+<div class="spin"></div>
+</div>
+<button class="boton l margin-bottom-3" data-js-selector="more_items_related">¡Quiero ver más artículos parecidos!</button>
+<input type="hidden" name="id_post" data-js-selector="id_post" value="20962">
+</div>
+<div class="barra-titulo-articulo" data-js-selector="barra_articulo">
+<div class="max_width">
+<div class="wrap_titulo-barra-articulo">Cómo encender mi ordenador a una hora automáticamente</div>
+<form id="buscador_secondary" class="search-form" action="https://www.mundodeportivo.com/uncomo/busqueda" method="GET" onsubmit="if ($('#q_secondary').val().length < 3) { alert('Con tan poquito no podemos saber lo que quieres, haz una búsqueda más larga.'); $('#q_secondary').focus(); GAevent('Header', 'short search', $('#q_secondary').val()); return false; } else { GAevent('Header', 'search', $('#q_secondary').val()) }">
+<fieldset>
+<input name="q" id="q_secondary" data-js-selector="q_secondary" class="input text search" placeholder="¿Qué estás buscando?"><button type="button" class="button search" onclick="if($('#q_secondary').val() == ''){$('#q_secondary').focus()} else { $('#buscador_secondary').submit();}"><img src="https://static.uc.ltmcdn.com/img/web/lupa.png" width="17" height="20" alt="lupa"><span> Buscar</span></button>
+</fieldset>
+</form>
+</div>
+</div>
+<div class="bg-galeria" data-js-selector="galeria" data-total="1">
+<div class="galeria-table">
+<div class="galeria">
+<div class="publibydfp ad mobile breakpoint_1 breakpoint_1-5"><ins data-ad-type='roba' data-ad-device='xs' data-ad-sizes='[[320, 50]]' data-ad-lazy='true' data-ad-keys='{}'></ins>
+</div>
+<div class="max-width-1100">
+<div class="table">
+<div class="cell cell--publi publibydfp ad breakpoint_2 breakpoint_2-5 breakpoint_3 breakpoint_4"><ins data-ad-type='roba' data-ad-device='md' data-ad-sizes='[[160, 600]]' data-ad-lazy='true' data-ad-keys='{}'></ins>
+</div>
+<div class="cell cell--img">
+<div class="imagen active" data-js-selector="imagen-galeria" data-posicion="0">
+<img src="" data-src="https://t2.uc.ltmcdn.com/images/2/6/9/img_como_encender_mi_ordenador_a_una_hora_automaticamente_20962_orig.jpg" data-js-selector="img-galeria" data-posicion="0">
+<div class="imagen_caption">Imagen: ordenadores-y-portatiles.com </div>
+</div>
+</div>
+<div class="cell cell--publi publibydfp ad breakpoint_2 breakpoint_2-5 breakpoint_3 breakpoint_4"><ins data-ad-type='roba' data-ad-device='md' data-ad-sizes='[[160, 600]]' data-ad-lazy='true' data-ad-keys='{}'></ins>
+</div>
+</div>
+</div>
+<div class="titulo-galeria">Cómo encender mi ordenador a una hora automáticamente</div>
+<div class="cerrar" data-js-selector="galeria-cerrar"><div class="icono"></div></div>
+</div>
+</div>
+</div>
+<div data-js-selector="anchor" class="publibydfp ad mobile breakpoint_1 breakpoint_1-5 megasticky-container-bottom">
+<div class="publi-box publi-box-sup">
+<ins data-ad-type='mega' data-ad-device='xs' data-ad-sizes='[[320, 50],[320,100]]' data-ad-lazy='false' data-ad-keys='{}'></ins>
+<div class="publi-box__close-btn" data-close-ad>
+<i class="fa fa-close">X</i>
+</div>
+</div>
+</div>
+<hr class="mobile">
+<ul class="breadcrumb mobile">
+<li><a href="https://www.mundodeportivo.com/uncomo"><span>unCOMO</span></a></li>
+<li><a href="https://www.mundodeportivo.com/uncomo/tecnologia/"><span>Tecnología</span></a></li>
+<li><a href="https://www.mundodeportivo.com/uncomo/tecnologia/ordenadores/"><span>Ordenadores</span></a></li>
+<li><a href="https://www.mundodeportivo.com/uncomo/tecnologia/configurar-y-utilizar-un-equipo/"><span>Configurar y utilizar un equipo</span></a></li>
+<li><a href="https://www.mundodeportivo.com/uncomo/tecnologia/encender-un-pc/"><span>Encender un PC</span></a></li>
+<li>Cómo encender mi ordenador a una hora automáticamente</li>
+</ul>
+<a class="back_top" href="#top">Volver arriba<span class="up-arrow"></span></a>
+<div class="back_top_desktop"><span class="up-arrow"></span></div>
+</div>
+<footer>
+<div class="max_width columnas--1">
+<div class="clear">
+<div class="columna">
+<div class="titulo titulo--footer">Redes sociales</div>
+<div class="social margin-bottom-1">
+<a href="https://www.facebook.com/uncomo" class="facebook follow-icon ga" target="_blank" rel="nofollow" data-category="Footer" data-event="go to social" data-label="facebook"></a>
+<a href="https://www.twitter.com/unComo" class="twitter follow-icon ga" target="_blank" rel="nofollow" data-category="Footer" data-event="go to social" data-label="twitter"></a>
+<a href="http://instagram.com/uncomo" class="instagram follow-icon ga" target="_blank" rel="nofollow" data-category="Footer" data-event="go to social" data-label="instagram"></a>
+<a href="https://www.youtube.com/channel/UCpo8jAAtVjYP8K4CBQfK7Bw?sub_confirmation=1" class="youtube follow-icon ga" target="_blank" rel="nofollow" data-category="Footer" data-event="go to social" data-label="youtube"></a>
+<a href="http://pinterest.com/uncomocom" class="pinterest follow-icon ga" target="_blank" rel="nofollow" data-category="Footer" data-event="go to social" data-label="pinterest"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="subfooter">
+<div class="max_width">
+<a href="https://www.linktomedia.com" rel="nofollow" target="_blank" class="ltm-logo"><img loading="lazy" src="https://static.uc.ltmcdn.com/img/web/ltm-logo.png" width="58" height="30" alt="Link To Media"></a>
+<strong>&copy; www.mundodeportivo.com/uncomo</strong> <em>2022</em>
+<a class="ga" data-category="Footer" data-event="quienes somos" rel="nofollow" href="https://www.mundodeportivo.com/uncomo/quienes-somos">Quiénes somos</a>
+<a class="ga" data-category="Footer" data-event="contacta con nosotros" target="_blank" rel="nofollow" href="https://www.linktomedia.com/#Contacto">Contacta con nosotros</a>
+<a class="ga" data-category="Footer" data-event="terminos y condiciones" data-js-selector="launch_popup" target="_blank" href="https://www.mundodeportivo.com/uncomo/index/terminosycondiciones" rel="nofollow">Términos y Condiciones</a>
+<a class="ga" data-category="Footer" data-event="politica de privacidad" data-js-selector="launch_popup" target="_blank" href="https://www.mundodeportivo.com/uncomo/index/politicadeprivacidad" rel="nofollow">Política de privacidad</a>
+<a class="ga" data-category="Footer" data-event="politica de cookies" data-js-selector="launch_popup" target="_blank" href="https://www.mundodeportivo.com/uncomo/index/politicadecookies" rel="nofollow">Política de cookies</a>
+<a href="javascript:Didomi.preferences.show()" title="Área de privacidad">Área de privacidad</a>
+</div>
+</div>
+</footer>
+<div id="mediaquery"></div> </div>
+</div>
+<script type="text/javascript" async="true" src="https://static.uc.ltmcdn.com/js/js_uncomo_168.js"></script>
+<script type="text/javascript">
+    //<!--
+    repetidosRelatedJs = "30629,27405,25431,5118,19389,20962";    //-->
+</script>
+<script>
+        godo.ads.push(function(x) {x.display("[data-ad-lazy=false]")})
+    </script>
+<script type="application/ld+json">
+    [{"@context":"http:\/\/schema.org\/","@type":"HowTo","name":"C\u00f3mo encender mi ordenador a una hora autom\u00e1ticamente","description":"\u00bfCu\u00e1nto tarda en encenderse y arrancar tu ordenador todas las ma\u00f1anas? Seguro que muchas veces te has preguntado si no existe una especie de control remoto que te permita encenderlo a distancia, de forma que cuando llegues al trabajo est\u00e9 ya listo para empezar el d\u00eda. \u00a1Esta posibilidad existe! Puedes programar el ordenador para que se encienda solo a determinada hora, \u00bfc\u00f3mo? En unComo.com te contamos c\u00f3mo encender tu ordenador a una hora autom\u00e1ticamente.","author":{"@type":"Person","name":"Ana Bulnes Fraga"},"image":["https:\/\/t2.uc.ltmcdn.com\/images\/2\/6\/9\/img_como_encender_mi_ordenador_a_una_hora_automaticamente_20962_orig.jpg","https:\/\/t2.uc.ltmcdn.com\/images\/2\/6\/9\/img_como_encender_mi_ordenador_a_una_hora_automaticamente_20962_600_square.jpg"],"step":[{"@type":"HowToStep","text":"Apaga o reinicia el ordenador y, cuando se est\u00e9 cargando y diga Press DEL or F1 to enter SETUP, pulsa la tecla Supr.","url":"https:\/\/www.mundodeportivo.com\/uncomo\/tecnologia\/articulo\/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html#anchor_0"},{"@type":"HowToStep","text":"Entrar\u00e1s en el programa de SETUP de tu ordenador, fuera de Windows. Aqu\u00ed, movi\u00e9ndote con las flechas, entra en la pesta\u00f1a Power.","url":"https:\/\/www.mundodeportivo.com\/uncomo\/tecnologia\/articulo\/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html#anchor_1"},{"@type":"HowToStep","text":"Una de las opciones de esta pantalla es Power Up Control. Selecci\u00f3nalo con las flechas y pulsa enter para aceptar.","url":"https:\/\/www.mundodeportivo.com\/uncomo\/tecnologia\/articulo\/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html#anchor_2"},{"@type":"HowToStep","text":"En la nueva pantalla, ve a Automatic Power Up y escoge la opci\u00f3n que m\u00e1s te convenga. Por ejemplo, si quieres que el ordenador se encienda todos los d\u00edas a la misma hora, escoge Everyday.","url":"https:\/\/www.mundodeportivo.com\/uncomo\/tecnologia\/articulo\/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html#anchor_3"},{"@type":"HowToStep","text":"En Time Alarm, selecciona la hora a la que quieres que se encienda el ordenador todos los d\u00edas. Cuando est\u00e9 lista, acepta pulsando Esc. Acepta los cambios.","url":"https:\/\/www.mundodeportivo.com\/uncomo\/tecnologia\/articulo\/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html#anchor_4"},{"@type":"HowToStep","text":"El ordenador se reiniciar\u00e1 de forma autom\u00e1tica. Ap\u00e1galo por la noche y a la ma\u00f1ana siguiente se encender\u00e1 justo a la hora programada.","url":"https:\/\/www.mundodeportivo.com\/uncomo\/tecnologia\/articulo\/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html#anchor_5"}],"publisher":{"@type":"Organization","name":"Www.mundodeportivo.com\/uncomo","logo":{"@type":"ImageObject","url":"https:\/\/static.uc.ltmcdn.com\/img\/web\/uncomo\/logo\/jsonld\/es.png","width":256,"height":60}},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.3","ratingCount":143}},{"@context":"http:\/\/schema.org\/","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/www.mundodeportivo.com\/uncomo\/tecnologia\/articulo\/como-encender-mi-ordenador-a-una-hora-automaticamente-20962.html"},"headline":"C\u00f3mo encender mi ordenador a una hora autom\u00e1ticamente","description":"\u00bfCu\u00e1nto tarda en encenderse y arrancar tu ordenador todas las ma\u00f1anas? Seguro que muchas veces te has preguntado si no existe una especie de control remoto que te permita encenderlo a distancia, de forma que cuando llegues al trabajo est\u00e9 ya listo para empezar el d\u00eda. \u00a1Esta posibilidad existe! Puedes programar el ordenador para que se encienda solo a determinada hora, \u00bfc\u00f3mo? En unComo.com te contamos c\u00f3mo encender tu ordenador a una hora autom\u00e1ticamente.","author":{"@type":"Person","name":"Ana Bulnes Fraga"},"image":["https:\/\/t2.uc.ltmcdn.com\/images\/2\/6\/9\/img_como_encender_mi_ordenador_a_una_hora_automaticamente_20962_orig.jpg","https:\/\/t2.uc.ltmcdn.com\/images\/2\/6\/9\/img_como_encender_mi_ordenador_a_una_hora_automaticamente_20962_600_square.jpg"],"datePublished":"2013-09-03T07:52:12Z","dateModified":"2017-01-20T11:47:46Z","publisher":{"@type":"Organization","name":"Www.mundodeportivo.com\/uncomo","logo":{"@type":"ImageObject","url":"https:\/\/static.uc.ltmcdn.com\/img\/web\/uncomo\/logo\/jsonld\/es.png","width":256,"height":60}}},{"@context":"http:\/\/schema.org\/","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"unCOMO","item":"https:\/\/www.mundodeportivo.com\/uncomo"},{"@type":"ListItem","position":2,"name":"Tecnolog\u00eda","item":"https:\/\/www.mundodeportivo.com\/uncomo\/tecnologia\/"},{"@type":"ListItem","position":3,"name":"Ordenadores","item":"https:\/\/www.mundodeportivo.com\/uncomo\/tecnologia\/ordenadores\/"},{"@type":"ListItem","position":4,"name":"Configurar y utilizar un equipo","item":"https:\/\/www.mundodeportivo.com\/uncomo\/tecnologia\/configurar-y-utilizar-un-equipo\/"},{"@type":"ListItem","position":5,"name":"Encender un PC","item":"https:\/\/www.mundodeportivo.com\/uncomo\/tecnologia\/encender-un-pc\/"}]}]
+</script></body>
+</html>
